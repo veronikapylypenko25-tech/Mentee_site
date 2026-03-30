@@ -96,7 +96,7 @@ class MentiApp {
         {
           id: '1',
           name: 'Ольга Резнікова',
-          role: 'CEO',
+          role: 'CEO ',
           description:
             'Засновниця освітньої платформи, менторка молодіжних ініціатив',
           fullDescription:
