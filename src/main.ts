@@ -96,7 +96,7 @@ class MentiApp {
         {
           id: '1',
           name: 'Ольга Резнікова',
-          role: 'Засновниця | CEO',
+          role: 'CEO',
           description:
             'Засновниця освітньої платформи, менторка молодіжних ініціатив',
           fullDescription:
@@ -158,7 +158,7 @@ class MentiApp {
         {
           id: '5',
           name: 'Єлизавета Приходько',
-          role: 'Проєктна менеджерка | Project Manager',
+          role: 'Project Manager',
           description:
             'Координаторка проєктів, організаторка менторських програм',
           fullDescription:
