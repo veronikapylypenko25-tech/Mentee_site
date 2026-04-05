@@ -654,7 +654,28 @@ h6 {
 .business-card h3 {
     margin-bottom: 0.75rem;
 }
+/* Глобальне налаштування для всіх заголовків секцій */
+.section-title {
+    margin-bottom: 0.5rem !important;
+}
 
+/* Відступ для всіх контейнерів з картками після заголовка */
+.flagship-grid,
+.features-grid,
+.problem-grid,
+.steps-grid,
+.value-grid,
+.business-grid,
+.community-grid,
+.impact-stats,
+.volunteer-call-grid,
+.mission-text-wrapper,
+.audience-panel,
+.impact-conversion,
+.carousel-container,
+.testimonials-carousel-container {
+    margin-top: 1.25rem !important;
+}
 .flagship-tag,
 .tag {
     display: inline-flex;
@@ -685,7 +706,20 @@ h6 {
     flex-wrap: wrap;
     gap: 0.5rem;
 }
+/* Відступ між заголовком та підзаголовком в секції команди */
+.team-orbit-header .section-title {
+    margin-bottom: 0.5rem;
+}
 
+.team-orbit-header .section-subtitle {
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+}
+
+/* Додатковий відступ перед орбітою команди */
+.team-orbit-shell {
+    margin-top: 1.5rem;
+}
 /* Volunteer */
 .volunteer-call-grid {
     display: grid;

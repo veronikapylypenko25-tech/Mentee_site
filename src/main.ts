@@ -783,25 +783,26 @@ class MentiApp {
 
   private renderBusinessModel(): string {
     return `
-      <section class="section business-section">
-        <div class="container">
-          <h2 class="section-title">Бізнес-модель та стратегія</h2>
-          <div class="business-grid">
-            <div class="business-card">
-              <h3>💰 Комерційна складова</h3>
-              <p>Комісія з транзакцій, premium-функції, корпоративні підписки</p>
-            </div>
-            <div class="business-card">
-              <h3>🤝 Соціальна місія</h3>
-              <p>Грантові програми, волонтерські години від експертів, доступ до знань для кожного</p>
-            </div>
+    <section class="section business-section">
+      <div class="container">
+        <h2 class="section-title">Бізнес-модель та стратегія</h2>
+        <div class="business-grid">
+          <div class="business-card">
+            <h3>💰 Комерційна складова</h3>
+            <p>Комісія з транзакцій, premium-функції, корпоративні підписки</p>
           </div>
-          <p class="business-note">
-            Соціальна складова реалізовуватиметься за рахунок грантового фінансування, внесків меценатів та партнерів.
-          </p>
+          <div class="business-card">
+            <h3>🤝 Соціальна місія</h3>
+            <p>Грантові програми, волонтерські години від експертів, доступ до знань для кожного</p>
+          </div>
         </div>
-      </section>
-    `;
+        <p class="business-note" style="margin-top: 2.8rem; padding: 1.2rem 1.8rem;  border-radius: 1rem; color: #44516f; font-weight: 500; text-align: center;">
+          🌱 Соціальна складова реалізовуватиметься за рахунок грантового фінансування, 
+          внесків меценатів та партнерів.
+        </p>
+      </div>
+    </section>
+  `;
   }
 
   private renderTestimonials(): string {
