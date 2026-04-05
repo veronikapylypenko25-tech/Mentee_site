@@ -796,12 +796,9 @@ class MentiApp {
             <p>Грантові програми, волонтерські години від експертів, доступ до знань для кожного</p>
           </div>
         </div>
-        <p class="business-note" style="margin-top: 2.8rem; padding: 1.2rem 1.8rem;  border-radius: 1rem; color: #44516f; font-weight: 500; text-align: center;">
-          🌱 Соціальна складова реалізовуватиметься за рахунок грантового фінансування, 
-          внесків меценатів та партнерів.
-        </p>
-      </div>
-    </section>
+<p class="business-note" style="margin-top: 2rem; padding: 0.5rem 0; background: transparent; border: none; color: #44516f; font-weight: 500; text-align: center; font-size: 1rem;">
+  🌱 Соціальна складова реалізовуватиметься за рахунок грантового фінансування, внесків меценатів та партнерів.
+</p>    </section>
   `;
   }
 
