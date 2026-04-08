@@ -8,7 +8,7 @@
     "build": "tsc && vite build && powershell -NoProfile -ExecutionPolicy Bypass -Command \"Remove-Item -Recurse -Force docs -ErrorAction SilentlyContinue; New-Item -ItemType Directory -Force docs | Out-Null; Copy-Item -Path dist\\* -Destination docs -Recurse -Force; Copy-Item dist\\app.html docs\\index.html -Force; Remove-Item docs\\app.html -ErrorAction SilentlyContinue; New-Item -ItemType File -Force docs\\.nojekyll | Out-Null\"",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d docs"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
