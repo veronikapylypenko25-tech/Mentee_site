@@ -2,64 +2,15 @@
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Menti - Менторська та психологічна підтримка для підлітків</title>
-  <link rel="icon" type="image/svg+xml" href="/menti-logo.svg">
-
-  <!-- Додаткові мета-теги для кращої адаптації -->
-  <meta name="theme-color" content="#f26f9f">
-  <meta name="format-detection" content="telephone=no">
-
-  <!-- Прелоад для швидшого завантаження -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <style>
-    /* КРИТИЧНІ СТИЛІ ДЛЯ ШВИДКОГО СТАРТУ ТА АДАПТАЦІЇ */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html {
-      font-size: 16px;
-      scroll-behavior: smooth;
-    }
-
-    body {
-      overflow-x: hidden;
-      width: 100%;
-      max-width: 100vw;
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    }
-
-    /* Запобігаємо горизонтальному скролу */
-    #app {
-      overflow-x: hidden;
-      width: 100%;
-    }
-
-    /* Адаптивний базовий розмір шрифту */
-    @media (max-width: 768px) {
-      html {
-        font-size: 14px;
-      }
-    }
-
-    @media (max-width: 480px) {
-      html {
-        font-size: 13px;
-      }
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menti</title>
+  <script>
+    const isLocalDev = ['localhost', '127.0.0.1'].includes(window.location.hostname);
+    const target = isLocalDev ? '/app.html' : '/Mentee_site/docs/';
+    window.location.replace(target);
+  </script>
 </head>
 <body>
-<div id="app">
-  <header id="header"></header>
-  <main id="main-content"></main>
-  <footer id="footer"></footer>
-</div>
-<script type="module" src="/src/main.ts"></script>
+  <p>Redirecting...</p>
 </body>
 </html>
