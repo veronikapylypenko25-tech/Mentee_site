@@ -15,6 +15,10 @@ class MentiApp {
     this.data = this.loadData();
   }
 
+  private asset(path: string): string {
+    return `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`;
+  }
+
   private loadData(): HomePageData {
     return {
       features: [
@@ -101,7 +105,7 @@ class MentiApp {
             'Засновниця освітньої платформи, менторка молодіжних ініціатив',
           fullDescription:
             'Реалізуючи менторські програми, я усвідомила головну проблему — відсутність швидкого містка між підлітком та фахівцем. Я бачила успішні трансформації одиниць, але хотіла допомогти тисячам. Mentee народився на перетині мого досвіду в освіті та віри в те, що технології мають служити людині, масштабуючи підтримку там, де вона найпотрібніша.',
-          photo: '/images/team/olha_reznikova_.png',
+          photo: this.asset('images/team/olha_reznikova_.png'),
           quote: 'Кожен підліток заслуговує на шанс розкрити свій потенціал',
           contacts: {
             phone: '+380969007678',
@@ -116,7 +120,7 @@ class MentiApp {
           description: 'Розробниця сайту та мобільного додатку Mentee',
           fullDescription:
             'Я вірю, що технології можуть змінювати життя на краще. Долучилась до Mentee, щоб створити зручний та доступний інструмент для підлітків, які потребують підтримки. Моя місія — зробити додаток інтуїтивно зрозумілим та корисним для кожного користувача.',
-          photo: '/images/team/veronika_pylypenko.png',
+          photo: this.asset('images/team/veronika_pylypenko.png'),
           quote: 'Технології мають бути доступними та корисними для кожного',
           contacts: {
             phone: '+380684801933',
@@ -131,7 +135,7 @@ class MentiApp {
           description: 'Дизайнер інтерфейсів та користувацького досвіду',
           fullDescription:
             'Дизайн — це не просто естетика, це спосіб зробити складне простим. Я приєднався до Mentee, щоб створити інтерфейс, який буде зрозумілим та комфортним для підлітків. Кожен елемент дизайну має надихати та допомагати користувачам досягати своїх цілей.',
-          photo: '/images/team/mykyta_sidorov.png',
+          photo: this.asset('images/team/mykyta_sidorov.png'),
           quote:
             'Гарний дизайн робить продукт зрозумілим, а великий — незабутнім',
           contacts: {
@@ -147,7 +151,7 @@ class MentiApp {
           description: 'Створює контент та комунікації',
           fullDescription:
             'Слова мають силу. Я долучилась до Mentee, щоб допомогти розповісти історії тих, хто потребує підтримки, та показати, як важливо мати наставника поруч. Моя мета — створювати контент, який надихає, підтримує та показує реальні зміни в житті підлітків.',
-          photo: '/images/team/polina_harmash_.png',
+          photo: this.asset('images/team/polina_harmash_.png'),
           quote: 'Кожна історія має бути почутою',
           contacts: {
             phone: '+380958069506',
@@ -163,7 +167,7 @@ class MentiApp {
             'Координаторка проєктів, організаторка менторських програм',
           fullDescription:
             'Я вірю, що правильно організований процес може змінити життя багатьох підлітків. Долучилась до Mentee, щоб вибудовувати ефективну комунікацію між менторами та учнями, забезпечувати якісне планування та контроль усіх етапів роботи. Моя мета — зробити Mentee зручним та прозорим для всіх учасників освітнього процесу.',
-          photo: '/images/team/yelyzaveta_pryhodko.png',
+          photo: this.asset('images/team/yelyzaveta_pryhodko.png'),
           quote: 'Якісне планування — запорука успішного результату',
           contacts: {
             email: 'yelyzaveta.prykhodko@kse.org.ua',
@@ -219,7 +223,7 @@ class MentiApp {
             <div class="hero-phone">
               <div class="phone-frame">
                 <div class="phone-screen">
-                  <img src="/images/screen_page.png" alt="Menti App" class="phone-screenshot">
+                  <img src="${this.asset('images/screen_page.png')}" alt="Menti App" class="phone-screenshot">
                 </div>
                 <div class="phone-dynamic-island"></div>
                 <div class="phone-home"></div>
@@ -303,7 +307,7 @@ class MentiApp {
 
             <div class="volunteer-call-media">
               <div class="volunteer-media-wrapper">
-                <img src="/images/gif.gif" alt="Менторська сесія" class="volunteer-gif">
+              <img src="${this.asset('images/gif.gif')}" alt="Менторська сесія" class="volunteer-gif">
                 <div class="floating-element floating-1">👥 280+ менторів</div>
                 <div class="floating-element floating-2">⏱️ 1-2 год/міс</div>
                 <div class="floating-element floating-3">💚 Зміни життя</div>
@@ -727,7 +731,7 @@ class MentiApp {
 
             <div class="impact-visual">
               <div class="impact-media">
-                <img src="/images/mentorship-session.jpg" alt="Менторська сесія" class="impact-image" onerror="this.src='/images/placeholder.jpg'">
+                <img src="${this.asset('images/mentorship-session.jpg')}" alt="Менторська сесія" class="impact-image" onerror="this.src='${this.asset('images/placeholder.jpg')}'">
               </div>
             </div>
           </div>
@@ -1121,7 +1125,7 @@ class MentiApp {
           src="${member.photo}"
           alt="${member.name}"
           class="team-center-avatar"
-          onerror="this.src='/images/placeholder-avatar.jpg'"
+          onerror="this.src='${this.asset('images/placeholder-avatar.jpg')}'"
         >
       </div>
     </div>
@@ -1145,7 +1149,7 @@ class MentiApp {
             src="${member.photo}"
             alt="${member.name}"
             class="team-side-avatar"
-            onerror="this.src='/images/placeholder-avatar.jpg'"
+            onerror="this.src='${this.asset('images/placeholder-avatar.jpg')}'"
           >
         </div>
       </div>
