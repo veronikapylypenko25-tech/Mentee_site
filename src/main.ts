@@ -1016,6 +1016,7 @@ class MentiApp {
         const navLinks = document.querySelector('.nav-links');
         navLinks?.classList.toggle('show');
       });
+
     }
 
     this.initTeamCarousel();
