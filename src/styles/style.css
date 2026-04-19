@@ -2737,3 +2737,148 @@ h6 {
         padding: 0 0.6rem;
     }
 }
+/* ТЕРМІНОВЕ ВИПРАВЛЕННЯ МАСШТАБУВАННЯ */
+* {
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+/* Виправлення hero секції */
+.hero {
+    padding: 40px 0 !important;
+    min-height: auto !important;
+    overflow-x: hidden;
+}
+
+.hero-content {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 30px !important;
+}
+
+.hero-text {
+    width: 100% !important;
+    order: 1 !important;
+}
+
+.hero-phone {
+    order: 2 !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.hero-title {
+    font-size: 28px !important;
+    line-height: 1.3 !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    text-align: center !important;
+}
+
+.hero-subtitle {
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+    padding: 0 10px !important;
+}
+
+/* Виправлення статистики */
+.hero-stats {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 20px !important;
+}
+
+.stat-item {
+    width: 100% !important;
+    max-width: 200px !important;
+    margin: 0 auto !important;
+}
+
+.stat-number {
+    font-size: 32px !important;
+    white-space: nowrap !important;
+}
+
+.stat-label {
+    font-size: 11px !important;
+    text-transform: none !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+}
+
+/* Кнопки */
+.hero-buttons {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 12px !important;
+}
+
+.btn-download,
+.btn-volunteer {
+    width: 100% !important;
+    max-width: 260px !important;
+    justify-content: center !important;
+    padding: 12px 20px !important;
+    font-size: 14px !important;
+}
+
+/* Прибираємо дублювання контенту */
+section {
+    overflow-x: hidden !important;
+}
+
+/* Для планшетів */
+@media (min-width: 768px) {
+    .hero-stats {
+        flex-direction: row !important;
+        justify-content: center !important;
+        gap: 30px !important;
+    }
+
+    .stat-item {
+        width: auto !important;
+        min-width: 140px !important;
+    }
+
+    .hero-buttons {
+        flex-direction: row !important;
+        justify-content: center !important;
+    }
+
+    .btn-download,
+    .btn-volunteer {
+        width: auto !important;
+        max-width: none !important;
+    }
+}
+
+/* Для великих екранів */
+@media (min-width: 1024px) {
+    .hero-content {
+        flex-direction: row !important;
+        align-items: center !important;
+    }
+
+    .hero-text {
+        width: 50% !important;
+        text-align: center !important;
+    }
+
+    .hero-phone {
+        width: 50% !important;
+    }
+
+    .hero-title {
+        font-size: 42px !important;
+    }
+}
