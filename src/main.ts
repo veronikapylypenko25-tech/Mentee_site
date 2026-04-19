@@ -26,21 +26,21 @@ class MentiApp {
           id: '1',
           title: 'AI-діагностика',
           description:
-            'Персоналізований підхід на основі експертних методик провідних українських освітян',
+              'Персоналізований підхід на основі експертних методик провідних українських освітян',
           icon: '🤖',
         },
         {
           id: '2',
           title: 'Єдиний простір',
           description:
-            'Адміністрування, чати, завдання та відстеження прогресу в одному місці',
+              'Адміністрування, чати, завдання та відстеження прогресу в одному місці',
           icon: '📱',
         },
         {
           id: '3',
           title: 'Психологічна підтримка',
           description:
-            'Зниження рівня тривожності та розвиток стійкості (resilience)',
+              'Зниження рівня тривожності та розвиток стійкості (resilience)',
           icon: '🧠',
         },
       ],
@@ -49,7 +49,7 @@ class MentiApp {
           number: 1,
           title: 'Первинна діагностика',
           description:
-            'AI-асистент проводить точну діагностику схильностей особистості',
+              'AI-асистент проводить точну діагностику схильностей особистості',
           tags: ['AI', 'Тестування'],
         },
         {
@@ -71,21 +71,21 @@ class MentiApp {
           authorName: 'Оля Резнікова',
           authorRole: 'Засновниця платформи',
           content:
-            'Я бачила успішні трансформації одиниць, але хотіла допомогти тисячам. Mentee народився на перетині мого досвіду в освіті та віри в те, що технології мають служити людині.',
+              'Я бачила успішні трансформації одиниць, але хотіла допомогти тисячам. Mentee народився на перетині мого досвіду в освіті та віри в те, що технології мають служити людині.',
         },
         {
           id: '2',
           authorName: 'Підлітки України',
           authorRole: 'Бенефіціари',
           content:
-            'Понад 70% підлітків відчувають високий рівень тривожності. Mentee створений, щоб допомогти кожному.',
+              'Понад 70% підлітків відчувають високий рівень тривожності. Mentee створений, щоб допомогти кожному.',
         },
         {
           id: '3',
           authorName: 'Марія Коваленко',
           authorRole: 'Керівниця програм менторства',
           content:
-            'Mentee дає можливість підліткам отримувати якісну підтримку незалежно від місця проживання. Це справжня революція в освіті.',
+              'Mentee дає можливість підліткам отримувати якісну підтримку незалежно від місця проживання. Це справжня революція в освіті.',
         },
       ],
       mentorBenefits: [
@@ -102,9 +102,9 @@ class MentiApp {
           name: 'Ольга Резнікова',
           role: 'CEO ',
           description:
-            'Засновниця освітньої платформи, менторка молодіжних ініціатив',
+              'Засновниця освітньої платформи, менторка молодіжних ініціатив',
           fullDescription:
-            'Реалізуючи менторські програми, я усвідомила головну проблему — відсутність швидкого містка між підлітком та фахівцем. Я бачила успішні трансформації одиниць, але хотіла допомогти тисячам. Mentee народився на перетині мого досвіду в освіті та віри в те, що технології мають служити людині, масштабуючи підтримку там, де вона найпотрібніша.',
+              'Реалізуючи менторські програми, я усвідомила головну проблему — відсутність швидкого містка між підлітком та фахівцем. Я бачила успішні трансформації одиниць, але хотіла допомогти тисячам. Mentee народився на перетині мого досвіду в освіті та віри в те, що технології мають служити людині, масштабуючи підтримку там, де вона найпотрібніша.',
           photo: this.asset('images/team/olha_reznikova_.png'),
           quote: 'Кожен підліток заслуговує на шанс розкрити свій потенціал',
           contacts: {
@@ -119,7 +119,7 @@ class MentiApp {
           role: 'Mobile Developer',
           description: 'Розробниця сайту та мобільного додатку Mentee',
           fullDescription:
-            'Я вірю, що технології можуть змінювати життя на краще. Долучилась до Mentee, щоб створити зручний та доступний інструмент для підлітків, які потребують підтримки. Моя місія — зробити додаток інтуїтивно зрозумілим та корисним для кожного користувача.',
+              'Я вірю, що технології можуть змінювати життя на краще. Долучилась до Mentee, щоб створити зручний та доступний інструмент для підлітків, які потребують підтримки. Моя місія — зробити додаток інтуїтивно зрозумілим та корисним для кожного користувача.',
           photo: this.asset('images/team/veronika_pylypenko.png'),
           quote: 'Технології мають бути доступними та корисними для кожного',
           contacts: {
@@ -134,10 +134,10 @@ class MentiApp {
           role: 'UI/UX Designer',
           description: 'Дизайнер інтерфейсів та користувацького досвіду',
           fullDescription:
-            'Дизайн — це не просто естетика, це спосіб зробити складне простим. Я приєднався до Mentee, щоб створити інтерфейс, який буде зрозумілим та комфортним для підлітків. Кожен елемент дизайну має надихати та допомагати користувачам досягати своїх цілей.',
+              'Дизайн — це не просто естетика, це спосіб зробити складне простим. Я приєднався до Mentee, щоб створити інтерфейс, який буде зрозумілим та комфортним для підлітків. Кожен елемент дизайну має надихати та допомагати користувачам досягати своїх цілей.',
           photo: this.asset('images/team/mykyta_sidorov.png'),
           quote:
-            'Гарний дизайн робить продукт зрозумілим, а великий — незабутнім',
+              'Гарний дизайн робить продукт зрозумілим, а великий — незабутнім',
           contacts: {
             phone: '+380989522471',
             email: 'mykyta.sidorov.25@kse.org.ua',
@@ -150,7 +150,7 @@ class MentiApp {
           role: 'Content Creator',
           description: 'Створює контент та комунікації',
           fullDescription:
-            'Слова мають силу. Я долучилась до Mentee, щоб допомогти розповісти історії тих, хто потребує підтримки, та показати, як важливо мати наставника поруч. Моя мета — створювати контент, який надихає, підтримує та показує реальні зміни в житті підлітків.',
+              'Слова мають силу. Я долучилась до Mentee, щоб допомогти розповісти історії тих, хто потребує підтримки, та показати, як важливо мати наставника поруч. Моя мета — створювати контент, який надихає, підтримує та показує реальні зміни в житті підлітків.',
           photo: this.asset('images/team/polina_harmash_.png'),
           quote: 'Кожна історія має бути почутою',
           contacts: {
@@ -164,9 +164,9 @@ class MentiApp {
           name: 'Єлизавета Приходько',
           role: 'Project Manager',
           description:
-            'Координаторка проєктів, організаторка менторських програм',
+              'Координаторка проєктів, організаторка менторських програм',
           fullDescription:
-            'Я вірю, що правильно організований процес може змінити життя багатьох підлітків. Долучилась до Mentee, щоб вибудовувати ефективну комунікацію між менторами та учнями, забезпечувати якісне планування та контроль усіх етапів роботи. Моя мета — зробити Mentee зручним та прозорим для всіх учасників освітнього процесу.',
+              'Я вірю, що правильно організований процес може змінити життя багатьох підлітків. Долучилась до Mentee, щоб вибудовувати ефективну комунікацію між менторами та учнями, забезпечувати якісне планування та контроль усіх етапів роботи. Моя мета — зробити Mentee зручним та прозорим для всіх учасників освітнього процесу.',
           photo: this.asset('images/team/yelyzaveta_pryhodko.png'),
           quote: 'Якісне планування — запорука успішного результату',
           contacts: {
@@ -372,12 +372,12 @@ class MentiApp {
 
           <div class="team-dots-container" id="teamDots">
             ${this.data.teamMembers
-              .map(
-                (_, index) => `
+        .map(
+            (_, index) => `
                   <button class="team-dot ${index === 0 ? 'active' : ''}" data-index="${index}" type="button"></button>
                 `,
-              )
-              .join('')}
+        )
+        .join('')}
           </div>
         </div>
       </div>
@@ -393,16 +393,16 @@ class MentiApp {
           <p class="section-subtitle">Інтелектуальна екосистема, яка веде трекінг успішності</p>
           <div class="features-grid">
             ${this.data.features
-              .map(
-                (feature) => `
+        .map(
+            (feature) => `
                 <div class="feature-card">
                   <div class="feature-icon">${feature.icon}</div>
                   <h3>${feature.title}</h3>
                   <p>${feature.description}</p>
                 </div>
               `,
-              )
-              .join('')}
+        )
+        .join('')}
           </div>
         </div>
       </section>
@@ -440,25 +440,25 @@ class MentiApp {
           <h2 class="section-title">Як це працює</h2>
           <div class="steps-grid">
             ${this.data.steps
-              .map(
-                (step) => `
+        .map(
+            (step) => `
                 <div class="step-item">
                   <div class="step-number">${step.number}</div>
                   <h3>${step.title}</h3>
                   <p>${step.description}</p>
                   ${
-                    step.tags
-                      ? `
+                step.tags
+                    ? `
                     <div class="tags">
                       ${step.tags.map((tag) => `<span class="tag">${tag}</span>`).join('')}
                     </div>
                   `
-                      : ''
-                  }
+                    : ''
+            }
                 </div>
               `,
-              )
-              .join('')}
+        )
+        .join('')}
           </div>
         </div>
       </section>
@@ -467,64 +467,64 @@ class MentiApp {
 
   private renderAudienceContent(): string {
     const content =
-      this.activeAudience === 'mentee'
-        ? {
-            title: 'Хочу навчатись',
-            items: [
-              {
-                title: 'AI-Matching',
-                text: 'Твій ідеальний фахівець за декілька кліків: обирай серед ТОП-3, які підходять саме під твій вайб та ціль.',
-              },
-              {
-                title: 'Верифікована безпека',
-                text: 'Ми вже перевірили всі дипломи та бекграунд експертів. Тобі залишається лише зареєструватись.',
-              },
-              {
-                title: 'Оплата в один дотик',
-                text: 'Apple Pay / Google Pay без реквізитів чи скріншотів. Сплачуй сесії так само легко, як купуєш каву.',
-              },
-              {
-                title: 'Roadmap та трекер навчання',
-                text: 'Завдяки вбудованій системі асесменту ти бачиш реальний прогрес своїх навичок після кожної сесії.',
-              },
-            ],
-          }
-        : {
-            title: 'Хочу навчати',
-            items: [
-              {
-                title: 'Гарантований дохід (Escrow)',
-                text: 'Оплата зараховується автоматично — прозоро, вчасно та без зайвих переписок.',
-              },
-              {
-                title: 'Авто-календар',
-                text: 'Синхронізація з Google / Outlook. Система сама нагадує учню та веде облік твоїх годин.',
-              },
-              {
-                title: 'Нуль маркетингу',
-                text: 'AI сам приводить до тебе вмотивованих учнів. Просто роби те, що любиш.',
-              },
-              {
-                title: 'Автоматизована операційка',
-                text: 'Нагадування, статуси сесій, облік годин і базова комунікація працюють у системі.',
-              },
-            ],
-          };
+        this.activeAudience === 'mentee'
+            ? {
+              title: 'Хочу навчатись',
+              items: [
+                {
+                  title: 'AI-Matching',
+                  text: 'Твій ідеальний фахівець за декілька кліків: обирай серед ТОП-3, які підходять саме під твій вайб та ціль.',
+                },
+                {
+                  title: 'Верифікована безпека',
+                  text: 'Ми вже перевірили всі дипломи та бекграунд експертів. Тобі залишається лише зареєструватись.',
+                },
+                {
+                  title: 'Оплата в один дотик',
+                  text: 'Apple Pay / Google Pay без реквізитів чи скріншотів. Сплачуй сесії так само легко, як купуєш каву.',
+                },
+                {
+                  title: 'Roadmap та трекер навчання',
+                  text: 'Завдяки вбудованій системі асесменту ти бачиш реальний прогрес своїх навичок після кожної сесії.',
+                },
+              ],
+            }
+            : {
+              title: 'Хочу навчати',
+              items: [
+                {
+                  title: 'Гарантований дохід (Escrow)',
+                  text: 'Оплата зараховується автоматично — прозоро, вчасно та без зайвих переписок.',
+                },
+                {
+                  title: 'Авто-календар',
+                  text: 'Синхронізація з Google / Outlook. Система сама нагадує учню та веде облік твоїх годин.',
+                },
+                {
+                  title: 'Нуль маркетингу',
+                  text: 'AI сам приводить до тебе вмотивованих учнів. Просто роби те, що любиш.',
+                },
+                {
+                  title: 'Автоматизована операційка',
+                  text: 'Нагадування, статуси сесій, облік годин і базова комунікація працюють у системі.',
+                },
+              ],
+            };
 
     return `
       <div class="audience-panel">
         <h4>${content.title}</h4>
         <div class="audience-feature-list">
           ${content.items
-            .map(
-              (item) => `
+        .map(
+            (item) => `
               <div class="audience-feature-card">
                 <h5>${item.title}</h5>
                 <p>${item.text}</p>
               </div>
             `,
-            )
-            .join('')}
+        )
+        .join('')}
         </div>
       </div>
     `;
@@ -562,8 +562,8 @@ class MentiApp {
                   <div class="journey-line"></div>
 
                   ${
-                    this.activeAudience === 'mentee'
-                      ? `
+        this.activeAudience === 'mentee'
+            ? `
                     <div class="journey-step step-chat"><div class="step-badge">💬 Хочу розвинути лідерство!</div></div>
                     <div class="journey-step step-ai">
                       <div class="ai-orb">
@@ -587,7 +587,7 @@ class MentiApp {
                     </div>
                     <div class="journey-step step-result"><div class="mini-chip success-chip">Отримано! і результат!</div></div>
                   `
-                      : `
+            : `
                     <div class="journey-step step-chat"><div class="step-badge">💼 Хочу навчати та допомагати</div></div>
                     <div class="journey-step step-ai">
                       <div class="ai-orb">
@@ -611,7 +611,7 @@ class MentiApp {
                     </div>
                     <div class="journey-step step-result"><div class="mini-chip success-chip">Прозоро! і дохід!</div></div>
                   `
-                  }
+    }
                 </div>
               </div>
 
@@ -622,8 +622,8 @@ class MentiApp {
 
                 <div class="dashboard-stack">
                   ${
-                    this.activeAudience === 'mentee'
-                      ? `
+        this.activeAudience === 'mentee'
+            ? `
                     <div class="dashboard-card">
                       <div class="dashboard-card-head"><span>Твій Match</span><small>ТОП-3 кандидати</small></div>
                       <div class="dashboard-value">95%</div>
@@ -645,7 +645,7 @@ class MentiApp {
                       <div class="wallet-visual"><div class="wallet-stack"></div><div class="wallet-icon">📈</div></div>
                     </div>
                   `
-                      : `
+            : `
                     <div class="dashboard-card">
                       <div class="dashboard-card-head"><span>Доходи</span><small>Цього тижня</small></div>
                       <div class="dashboard-value">$1250</div>
@@ -667,7 +667,7 @@ class MentiApp {
                       <div class="wallet-visual"><div class="wallet-stack"></div><div class="wallet-icon">💳</div></div>
                     </div>
                   `
-                  }
+    }
                 </div>
               </div>
             </div>
@@ -708,57 +708,107 @@ class MentiApp {
     `;
   }
 
-  private renderImpactSection(): string {
+  // НАСТУПНИЙ МЕТОД - ДОДАЙТЕ В КЛАС (перед renderImpactSection або після)
+  private renderSimpleImpact(): string {
     return `
-      <section class="section impact-section">
-        <div class="container">
-          <div class="impact-header">
-            <h2 class="section-title">Ваша підтримка = реальні зміни</h2>
-            <p class="impact-subtitle">Прозорість — основа нашої роботи. Кожна гривня перетворюється на години підтримки для підлітків.</p>
+      <section class="impact-block" style="max-width: 1200px; margin: 0 auto; padding: 60px 20px; text-align: center; background: #fff; border-radius: 32px;">
+        <h2 style="font-size: 2.2rem; font-weight: 800; margin-bottom: 16px; background: linear-gradient(135deg, #1f2a78, #8b5cf6, #f26f9f); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Ваша підтримка = реальні зміни</h2>
+        <p style="font-size: 1.1rem; color: #5f6f8f; max-width: 700px; margin: 0 auto 48px;">Прозорість — основа нашої роботи. Кожна гривня перетворюється на години підтримки для підлітків.</p>
+        <div style="display: flex; justify-content: center; gap: 32px; flex-wrap: wrap; margin-bottom: 60px;">
+          <div style="background: #f8fafe; padding: 32px; border-radius: 24px; min-width: 220px;">
+            <div style="font-size: 3.5rem; font-weight: 900; background: linear-gradient(135deg, #f26f9f, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">+10K</div>
+            <div style="color: #5f6f8f; margin-top: 8px;">запланованих годин підтримки</div>
           </div>
-
-          <div class="impact-grid">
-            <div class="impact-stats">
-              <div class="impact-stat-card">
-                <div class="impact-stat-number">+10K</div>
-                <div class="impact-stat-label">запланованих годин підтримки</div>
-              </div>
-              <div class="impact-stat-card">
-                <div class="impact-stat-number">95%</div>
-                <div class="impact-stat-label">точності AI-матчингу</div>
-              </div>
-            </div>
-
-            <div class="impact-visual">
-              <div class="impact-media">
-                <img src="${this.asset('images/mentorship-session.jpg')}" alt="Менторська сесія" class="impact-image" onerror="this.src='${this.asset('images/placeholder.jpg')}'">
-              </div>
-            </div>
+          <div style="background: #f8fafe; padding: 32px; border-radius: 24px; min-width: 220px;">
+            <div style="font-size: 3.5rem; font-weight: 900; background: linear-gradient(135deg, #f26f9f, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">95%</div>
+            <div style="color: #5f6f8f; margin-top: 8px;">точності AI-матчингу</div>
           </div>
-
-          <div class="impact-conversion">
-            <h3 class="impact-conversion-title">Як це працює</h3>
-            <div class="conversion-flow">
-              <div class="flow-step"><div class="flow-icon">💰</div><div class="flow-amount">100$</div><div class="flow-desc">ваш внесок</div></div>
-              <div class="flow-arrow">→</div>
-              <div class="flow-step"><div class="flow-icon">🎓</div><div class="flow-amount">5 сесій</div><div class="flow-desc">менторської підтримки</div></div>
-              <div class="flow-arrow">→</div>
-              <div class="flow-step"><div class="flow-icon">🌟</div><div class="flow-amount">1 дитина</div><div class="flow-desc">з прифронтової зони</div></div>
-            </div>
-            <div class="conversion-note">
-              <span>100$ = 5 менторських сесій для дитини з прифронтової зони</span>
-            </div>
+        </div>
+        <h3 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 32px;">Як це працює</h3>
+        <div style="display: flex; justify-content: center; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 32px;">
+          <div style="background: #f8fafe; padding: 24px; border-radius: 20px; min-width: 140px;">
+            <div style="font-size: 2rem;">💰</div>
+            <div style="font-size: 1.5rem; font-weight: 800; color: #f26f9f;">100$</div>
+            <div style="color: #5f6f8f;">ваш внесок</div>
           </div>
-
-          <div class="impact-cta">
-            <div class="impact-cta-buttons">
-              <button class="btn-impact-donate" id="donateBtn" type="button">Стати партнером / донором</button>
-              <button class="btn-impact-more" id="impactMoreBtn" type="button">Дізнатись більше про Impact</button>
-            </div>
+          <div style="font-size: 2rem; color: #c4b5fd;">→</div>
+          <div style="background: #f8fafe; padding: 24px; border-radius: 20px; min-width: 140px;">
+            <div style="font-size: 2rem;">🎓</div>
+            <div style="font-size: 1.5rem; font-weight: 800; color: #f26f9f;">5 сесій</div>
+            <div style="color: #5f6f8f;">менторської підтримки</div>
           </div>
+          <div style="font-size: 2rem; color: #c4b5fd;">→</div>
+          <div style="background: #f8fafe; padding: 24px; border-radius: 20px; min-width: 140px;">
+            <div style="font-size: 2rem;">🌟</div>
+            <div style="font-size: 1.5rem; font-weight: 800; color: #f26f9f;">1 дитина</div>
+            <div style="color: #5f6f8f;">з прифронтової зони</div>
+          </div>
+        </div>
+        <div style="background: linear-gradient(135deg, #f26f9f10, #8b5cf610); padding: 16px; border-radius: 60px; max-width: 500px; margin: 0 auto 40px;">
+          <span style="font-weight: 700;">100$ = 5 менторських сесій для дитини з прифронтової зони</span>
+        </div>
+        <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+          <button class="btn-impact-donate" id="donateBtn" style="background: linear-gradient(135deg, #8b5cf6, #f26f9f); color: white; border: none; padding: 14px 32px; border-radius: 60px; font-weight: 700; cursor: pointer;">Стати партнером / донором</button>
+          <button class="btn-impact-more" id="impactMoreBtn" style="background: transparent; border: 2px solid #f26f9f; color: #f26f9f; padding: 14px 32px; border-radius: 60px; font-weight: 700; cursor: pointer;">Дізнатись більше про Impact</button>
         </div>
       </section>
     `;
+  }
+
+  private renderImpactSection(): string {
+    return `
+    <section class="section impact-section">
+      <div class="container">
+        <div class="impact-header">
+          <h2 class="section-title">Ваша підтримка = реальні зміни</h2>
+          <p class="impact-subtitle">Прозорість — основа нашої роботи. Кожна гривня перетворюється на години підтримки для підлітків.</p>
+        </div>
+
+        <div class="impact-grid">
+          <div class="impact-stats">
+            <div class="impact-stat-card">
+              <div class="impact-stat-number">+10K</div>
+              <div class="impact-stat-label">запланованих годин підтримки</div>
+            </div>
+            <div class="impact-stat-card">
+              <div class="impact-stat-number">95%</div>
+              <div class="impact-stat-label">точності AI-матчингу</div>
+            </div>
+          </div>
+
+          <div class="impact-visual">
+            <div class="impact-media">
+              <div class="impact-placeholder" style="background: linear-gradient(135deg, #f26f9f20, #8b5cf620); border-radius: 1.5rem; height: 280px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                <span style="font-size: 4rem;">🎓💚</span>
+                <span style="margin-top: 1rem; color: #1f2a78; font-weight: 600;">Менторська сесія</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="impact-conversion">
+          <h3 class="impact-conversion-title">Як це працює</h3>
+          <div class="conversion-flow">
+            <div class="flow-step"><div class="flow-icon">💰</div><div class="flow-amount">100$</div><div class="flow-desc">ваш внесок</div></div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step"><div class="flow-icon">🎓</div><div class="flow-amount">5 сесій</div><div class="flow-desc">менторської підтримки</div></div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step"><div class="flow-icon">🌟</div><div class="flow-amount">1 дитина</div><div class="flow-desc">з прифронтової зони</div></div>
+          </div>
+          <div class="conversion-note">
+            <span>100$ = 5 менторських сесій для дитини з прифронтової зони</span>
+          </div>
+        </div>
+
+        <div class="impact-cta">
+          <div class="impact-cta-buttons">
+            <button class="btn-impact-donate" id="donateBtn" type="button">Стати партнером / донором</button>
+            <button class="btn-impact-more" id="impactMoreBtn" type="button">Дізнатись більше про Impact</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  `;
   }
 
   private renderValue(): string {
@@ -821,8 +871,8 @@ class MentiApp {
             <div class="testimonials-carousel">
               <div class="carousel-track" id="carouselTrack">
                 ${this.data.testimonials
-                  .map(
-                    (testimonial, index) => `
+        .map(
+            (testimonial, index) => `
                     <div class="testimonial-card-carousel" data-index="${index}">
                       <div class="testimonial-quote-icon">“</div>
                       <p class="testimonial-content-carousel">${testimonial.content}</p>
@@ -837,8 +887,8 @@ class MentiApp {
                       </div>
                     </div>
                   `,
-                  )
-                  .join('')}
+        )
+        .join('')}
               </div>
             </div>
 
@@ -847,12 +897,12 @@ class MentiApp {
 
           <div class="carousel-dots">
             ${this.data.testimonials
-              .map(
-                (_, index) => `
+        .map(
+            (_, index) => `
                 <button class="carousel-dot ${index === 0 ? 'active' : ''}" data-index="${index}" type="button"></button>
               `,
-              )
-              .join('')}
+        )
+        .join('')}
           </div>
 
           <div class="testimonials-footer">
@@ -885,7 +935,7 @@ class MentiApp {
   }
 
   private renderAuthModal(
-    mode: 'login' | 'register' | 'mentor' = 'register',
+      mode: 'login' | 'register' | 'mentor' = 'register',
   ): string {
     const isLogin = mode === 'login';
     const isMentor = mode === 'mentor';
@@ -901,18 +951,18 @@ class MentiApp {
           </div>
           <form class="modal-form" id="authForm">
             ${
-              !isLogin
-                ? `
+        !isLogin
+            ? `
                 <div class="form-group">
                   <label for="name">Ім'я</label>
                   <input type="text" id="name" name="name" placeholder="Ваше ім'я" required>
                 </div>
               `
-                : ''
-            }
+            : ''
+    }
             ${
-              isMentor
-                ? `
+        isMentor
+            ? `
                 <div class="form-group">
                   <label for="expertise">Спеціалізація</label>
                   <input type="text" id="expertise" name="expertise" placeholder="Наприклад: Психолог, Ментор" required>
@@ -922,8 +972,8 @@ class MentiApp {
                   <input type="number" id="experience" name="experience" placeholder="5" required>
                 </div>
               `
-                : ''
-            }
+            : ''
+    }
             <div class="form-group">
               <label for="email">Email</label>
               <input type="email" id="email" name="email" placeholder="your@email.com" required>
@@ -933,15 +983,15 @@ class MentiApp {
               <input type="password" id="password" name="password" placeholder="••••••••" required>
             </div>
             ${
-              !isLogin
-                ? `
+        !isLogin
+            ? `
                 <div class="form-group">
                   <label for="confirmPassword">Підтвердіть пароль</label>
                   <input type="password" id="confirmPassword" name="confirmPassword" placeholder="••••••••" required>
                 </div>
               `
-                : ''
-            }
+            : ''
+    }
             <div class="form-group checkbox-group">
               <input type="checkbox" id="terms" name="terms" required>
               <label for="terms">Я погоджуюсь з <a href="#">умовами використання</a> та <a href="#">політикою конфіденційності</a></label>
@@ -952,22 +1002,22 @@ class MentiApp {
           </form>
           <div class="modal-footer">
             ${
-              isLogin
-                ? `<p>Ще немає акаунту? <a href="#" id="switchToRegister">Зареєструватись</a></p>`
-                : `<p>Вже є акаунт? <a href="#" id="switchToLogin">Увійти</a></p>`
-            }
+        isLogin
+            ? `<p>Ще немає акаунту? <a href="#" id="switchToRegister">Зареєструватись</a></p>`
+            : `<p>Вже є акаунт? <a href="#" id="switchToLogin">Увійти</a></p>`
+    }
           </div>
           ${
-            !isLogin
-              ? `
+        !isLogin
+            ? `
               <div class="modal-divider"><span>або</span></div>
               <div class="social-login">
                 <button class="social-btn google" type="button">Google</button>
                 <button class="social-btn facebook" type="button">Facebook</button>
               </div>
             `
-              : ''
-          }
+            : ''
+    }
         </div>
       </div>
     `;
@@ -994,7 +1044,7 @@ class MentiApp {
         ${this.renderSteps()}
         ${this.renderUniqueness()}
         ${this.renderCommunity()}
-        ${this.renderImpactSection()}
+        ${this.renderSimpleImpact()}  
         ${this.renderValue()}
         ${this.renderBusinessModel()}
         ${this.renderTestimonials()}
@@ -1016,7 +1066,6 @@ class MentiApp {
         const navLinks = document.querySelector('.nav-links');
         navLinks?.classList.toggle('show');
       });
-
     }
 
     this.initTeamCarousel();
@@ -1051,10 +1100,10 @@ class MentiApp {
     });
 
     document
-      .getElementById('volunteerAskBtn')
-      ?.addEventListener('click', () => {
-        alert("Зв'яжіться з нами: reznikovaolha@gmail.com або +3800969007678");
-      });
+        .getElementById('volunteerAskBtn')
+        ?.addEventListener('click', () => {
+          alert("Зв'яжіться з нами: reznikovaolha@gmail.com або +3800969007678");
+        });
 
     document.getElementById('donateBtn')?.addEventListener('click', () => {
       alert("Дякуємо за інтерес! Зв'яжіться з нами: reznikovaolha@gmail.com");
@@ -1062,31 +1111,31 @@ class MentiApp {
 
     document.getElementById('impactMoreBtn')?.addEventListener('click', () => {
       alert(
-        'Прозорість — наша цінність. 100$ = 5 менторських сесій для дитини з прифронтової зони.',
+          'Прозорість — наша цінність. 100$ = 5 менторських сесій для дитини з прифронтової зони.',
       );
     });
 
     document
-      .getElementById('allTestimonialsBtn')
-      ?.addEventListener('click', () => {
-        alert(
-          'Всі відгуки будуть доступні незабаром! Слідкуйте за оновленнями.',
-        );
-      });
+        .getElementById('allTestimonialsBtn')
+        ?.addEventListener('click', () => {
+          alert(
+              'Всі відгуки будуть доступні незабаром! Слідкуйте за оновленнями.',
+          );
+        });
 
     document
-      .querySelectorAll<HTMLButtonElement>('.top-switch-btn')
-      .forEach((button) => {
-        button.addEventListener('click', () => {
-          const audience = button.dataset.audience as
-            | 'mentee'
-            | 'mentor'
-            | undefined;
-          if (!audience || audience === this.activeAudience) return;
-          this.activeAudience = audience;
-          this.render();
+        .querySelectorAll<HTMLButtonElement>('.top-switch-btn')
+        .forEach((button) => {
+          button.addEventListener('click', () => {
+            const audience = button.dataset.audience as
+                | 'mentee'
+                | 'mentor'
+                | undefined;
+            if (!audience || audience === this.activeAudience) return;
+            this.activeAudience = audience;
+            this.render();
+          });
         });
-      });
   }
 
   private initTeamCarousel(): void {
@@ -1100,13 +1149,13 @@ class MentiApp {
     const dots = document.querySelectorAll<HTMLElement>('.team-dot');
 
     if (
-      !prevBtn ||
-      !nextBtn ||
-      !centerCard ||
-      !topLeft ||
-      !topRight ||
-      !bottomLeft ||
-      !bottomRight
+        !prevBtn ||
+        !nextBtn ||
+        !centerCard ||
+        !topLeft ||
+        !topRight ||
+        !bottomLeft ||
+        !bottomRight
     )
       return;
 
@@ -1115,7 +1164,7 @@ class MentiApp {
     let hoverTimer: number | null = null;
 
     const normalizeIndex = (index: number) =>
-      (index + members.length) % members.length;
+        (index + members.length) % members.length;
     const getMember = (index: number) => members[normalizeIndex(index)];
 
     const renderCenter = (member: (typeof members)[number]) => `
@@ -1139,9 +1188,9 @@ class MentiApp {
   `;
 
     const renderSide = (
-      member: (typeof members)[number],
-      targetIndex: number,
-      text: string,
+        member: (typeof members)[number],
+        targetIndex: number,
+        text: string,
     ) => `
     <button class="team-side-node" type="button" data-index="${targetIndex}" aria-label="${member.name}">
       <div class="team-side-avatar-wrap">
@@ -1160,7 +1209,7 @@ class MentiApp {
 
     const bindHoverSwitch = (container: HTMLElement | null) => {
       const button =
-        container?.querySelector<HTMLButtonElement>('button[data-index]');
+          container?.querySelector<HTMLButtonElement>('button[data-index]');
       if (!button) return;
 
       const targetIndex = Number(button.dataset.index);
@@ -1197,27 +1246,27 @@ class MentiApp {
       centerCard.innerHTML = renderCenter(center);
 
       topLeft.innerHTML = renderSide(
-        memberTopLeft,
-        normalizeIndex(currentIndex - 2),
-        memberTopLeft.description,
+          memberTopLeft,
+          normalizeIndex(currentIndex - 2),
+          memberTopLeft.description,
       );
 
       topRight.innerHTML = renderSide(
-        memberTopRight,
-        normalizeIndex(currentIndex + 1),
-        memberTopRight.description,
+          memberTopRight,
+          normalizeIndex(currentIndex + 1),
+          memberTopRight.description,
       );
 
       bottomLeft.innerHTML = renderSide(
-        memberBottomLeft,
-        normalizeIndex(currentIndex - 1),
-        memberBottomLeft.description,
+          memberBottomLeft,
+          normalizeIndex(currentIndex - 1),
+          memberBottomLeft.description,
       );
 
       bottomRight.innerHTML = renderSide(
-        memberBottomRight,
-        normalizeIndex(currentIndex + 2),
-        memberBottomRight.description,
+          memberBottomRight,
+          normalizeIndex(currentIndex + 2),
+          memberBottomRight.description,
       );
 
       bindHoverSwitch(topLeft);
@@ -1317,12 +1366,12 @@ class MentiApp {
     });
 
     document
-      .getElementById('switchToRegister')
-      ?.addEventListener('click', (e) => {
-        e.preventDefault();
-        modal.remove();
-        this.openModal('register');
-      });
+        .getElementById('switchToRegister')
+        ?.addEventListener('click', (e) => {
+          e.preventDefault();
+          modal.remove();
+          this.openModal('register');
+        });
 
     document.getElementById('authForm')?.addEventListener('submit', (e) => {
       e.preventDefault();

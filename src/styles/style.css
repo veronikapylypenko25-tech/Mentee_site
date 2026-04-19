@@ -2540,3 +2540,203 @@ h6 {
         padding: 0 0.75rem;
     }
 }
+/* Impact Clean Section - для адаптивного блоку */
+.impact-clean {
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    background: var(--bg-white, #ffffff);
+}
+
+.impact-clean-container {
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+}
+
+.impact-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+    color: var(--text-dark, #1f2a78);
+}
+
+.impact-subtitle {
+    font-size: 1rem;
+    color: var(--text-muted, #7b89a8);
+    max-width: 700px;
+    margin: 0 auto 48px;
+    line-height: 1.5;
+}
+
+.impact-stats {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.impact-card {
+    text-align: center;
+}
+
+.impact-number {
+    font-size: 3rem;
+    font-weight: 900;
+    background: linear-gradient(135deg, var(--primary, #f26f9f), var(--secondary, #8b5cf6));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 8px;
+}
+
+.impact-label {
+    color: var(--text-muted, #7b89a8);
+    font-size: 0.9rem;
+}
+
+.impact-how {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: var(--text-dark, #1f2a78);
+}
+
+.impact-flow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.impact-flow .flow-item {
+    text-align: center;
+    min-width: 130px;
+}
+
+.impact-flow .flow-icon {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.impact-flow .flow-value {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--primary, #f26f9f);
+    margin-bottom: 4px;
+}
+
+.impact-flow .flow-text {
+    color: var(--text-muted, #7b89a8);
+    font-size: 0.85rem;
+}
+
+.impact-flow .flow-arrow {
+    font-size: 1.8rem;
+    color: var(--primary-light, #ff8db2);
+}
+
+.impact-note {
+    background: linear-gradient(135deg, rgba(242, 111, 159, 0.1), rgba(139, 92, 246, 0.1));
+    padding: 12px 24px;
+    border-radius: 60px;
+    display: inline-block;
+    margin: 0 auto 40px;
+    font-weight: 600;
+    color: var(--text-dark, #1f2a78);
+}
+
+.impact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.impact-buttons .btn-impact-donate,
+.impact-buttons .btn-impact-more {
+    padding: 12px 28px;
+    border-radius: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.impact-buttons .btn-impact-donate {
+    background: linear-gradient(135deg, var(--secondary, #8b5cf6), var(--primary, #f26f9f));
+    color: white;
+    border: none;
+}
+
+.impact-buttons .btn-impact-more {
+    background: transparent;
+    border: 2px solid var(--primary, #f26f9f);
+    color: var(--primary, #f26f9f);
+}
+
+.impact-buttons .btn-impact-donate:hover,
+.impact-buttons .btn-impact-more:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Адаптація Impact Clean на мобільних */
+@media (max-width: 768px) {
+    .impact-clean {
+        padding: 40px 16px;
+    }
+
+    .impact-stats {
+        gap: 30px;
+    }
+
+    .impact-number {
+        font-size: 2.5rem;
+    }
+
+    .impact-flow {
+        gap: 12px;
+    }
+
+    .impact-flow .flow-arrow {
+        display: none;
+    }
+
+    .impact-flow .flow-item {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .impact-title {
+        font-size: 1.8rem;
+    }
+
+    .impact-how {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .impact-clean {
+        padding: 30px 16px;
+    }
+
+    .impact-stats {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .impact-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .impact-buttons .btn-impact-donate,
+    .impact-buttons .btn-impact-more {
+        width: 100%;
+        max-width: 280px;
+    }
+}
