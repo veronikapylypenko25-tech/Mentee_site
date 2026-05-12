@@ -177,52 +177,55 @@ class MentiApp {
 
   private renderHero(): string {
     return `
-      <section class="hero">
-        <div class="container">
-          <div class="hero-content">
-            <div class="hero-text">
-              <h1 class="hero-title">Одна розмова може змінити життя</h1>
-              <p class="hero-subtitle">Персональна екосистема розвитку Mentee — це місце, де молодь знаходить підтримку, яка їм справді потрібна.</p>
-              <p class="hero-subtitle-secondary">Без засуджень. Без стереотипів. Просто ти і твій шлях вперед.</p>
-              <div class="hero-tags">
-                <span class="hero-tag">🔒 Безпечно</span>
-                <span class="hero-tag">🎭 Анонімно</span>
-                <span class="hero-tag">⏰ 24/7</span>
-              </div>
-              <div class="hero-buttons">
-                <button class="btn-download" id="downloadBtn" type="button">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2M7 11l5 5 5-5M12 4v12"/>
-                  </svg>
-                  <span>Завантажити додаток</span>
-                </button>
-                <button class="test-btn" id="openTestBtn" type="button">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M12 2a10 10 0 0 1 10 10c0 5.5-4 10-10 10S2 17.5 2 12 6 2 12 2z"/>
-                    <path d="M12 6v6l4 2"/>
-                  </svg>
-                  <span>Пройти тест "Твоя супер-сила"</span>
-                </button>
-              </div>
-              <div class="hero-stats">
-                <div class="stat-item"><div class="stat-number">1.5M+</div><div class="stat-label">підлітків потребують підтримки</div></div>
-                <div class="stat-item"><div class="stat-number">70%</div><div class="stat-label">мають високий рівень тривожності</div></div>
-                <div class="stat-item"><div class="stat-number">60%</div><div class="stat-label">не мають плану профорієнтації</div></div>
-              </div>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">Одна розмова може змінити життя</h1>
+            <p class="hero-subtitle">Персональна екосистема розвитку Mentee — це місце, де молодь знаходить підтримку, яка їм справді потрібна.</p>
+            <p class="hero-subtitle-secondary">Без засуджень. Без стереотипів. Просто ти і твій шлях вперед.</p>
+            <div class="hero-tags">
+              <span class="hero-tag">🔒 Безпечно</span>
+              <span class="hero-tag">🎭 Анонімно</span>
+              <span class="hero-tag">⏰ 24/7</span>
             </div>
-            <div class="hero-phone">
-              <div class="phone-frame">
-                <div class="phone-screen">
-                  <img src="${this.asset('images/screen_page.png')}" alt="Menti App" class="phone-screenshot">
-                </div>
-                <div class="phone-dynamic-island"></div>
-                <div class="phone-home"></div>
+
+            <div class="hero-buttons">
+              <button class="btn-download" id="downloadBtn" type="button">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2M7 11l5 5 5-5M12 4v12"/>
+                </svg>
+                <span>Завантажити додаток</span>
+              </button>
+              <button class="test-btn" id="openTestBtn" type="button">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2a10 10 0 0 1 10 10c0 5.5-4 10-10 10S2 17.5 2 12 6 2 12 2z"/>
+                  <path d="M12 6v6l4 2"/>
+                </svg>
+                <span>Пройти тест "Твоя супер-сила"</span>
+              </button>
+            </div>
+
+            <div class="hero-stats">
+              <div class="stat-item"><div class="stat-number">1.5M+</div><div class="stat-label">підлітків потребують підтримки</div></div>
+              <div class="stat-item"><div class="stat-number">70%</div><div class="stat-label">мають високий рівень тривожності</div></div>
+              <div class="stat-item"><div class="stat-number">60%</div><div class="stat-label">не мають плану профорієнтації</div></div>
+            </div>
+          </div>
+
+          <div class="hero-phone">
+            <div class="phone-frame">
+              <div class="phone-screen">
+                <img src="${this.asset('images/screen_page.png')}" alt="Menti App" class="phone-screenshot">
               </div>
+              <div class="phone-dynamic-island"></div>
+              <div class="phone-home"></div>
             </div>
           </div>
         </div>
-      </section>
-    `;
+      </div>
+    </section>
+  `;
   }
 
   private renderFlagshipBlocks(): string {
@@ -249,7 +252,7 @@ class MentiApp {
             <div class="volunteer-call-content">
               <h2 class="volunteer-call-title">Інвестуйте свій час у розвиток молоді, що постраждала від війни</h2>
               <p class="volunteer-call-subtitle">допоможіть підліткам повірити у власні сили</p>
-              <p class="volunteer-call-text">Ми шукаємо менторів та психологів, готових приділити 1-2 години на місяць волонтерським сесіям для підлітків із вразливих груп.</p>
+              <p class="volunteer-call-text"> Приєднуйся до спільноти експертів Mentee, які допомагають молоді вразливих категорій знайти свій шлях. Ваша експертиза допоможе підлітку опанувати неофхідні soft skills, підвищити рівень знань та повірити в себе. Навіть одна сесія на місяць може стати провідником у світ професійної реалізації та внутрішньої рівноваги менті.</p>
               <div class="volunteer-call-quote"><span class="quote-mark">“</span><span class="quote-text">з ментором легше</span><span class="quote-mark">”</span></div>
               <div class="volunteer-call-stats">
                 <div class="volunteer-call-stat"><div class="volunteer-call-stat-number">280+</div><div class="volunteer-call-stat-label">експертів вже приєдналось</div></div>
