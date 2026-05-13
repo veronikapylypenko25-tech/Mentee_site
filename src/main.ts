@@ -25,22 +25,19 @@ class MentiApp {
         {
           id: '1',
           title: 'AI-діагностика',
-          description:
-            'Персоналізований підхід на основі експертних методик провідних українських освітян',
+          description: 'Персоналізований підхід на основі експертних методик провідних українських освітян',
           icon: '🤖',
         },
         {
           id: '2',
           title: 'Єдиний простір',
-          description:
-            'Адміністрування, чати, завдання та відстеження прогресу в одному місці',
+          description: 'Адміністрування, чати, завдання та відстеження прогресу в одному місці',
           icon: '📱',
         },
         {
           id: '3',
           title: 'Психологічна підтримка',
-          description:
-            'Зниження рівня тривожності та розвиток стійкості (resilience)',
+          description: 'Зниження рівня тривожності та розвиток стійкості (resilience)',
           icon: '🧠',
         },
       ],
@@ -48,8 +45,7 @@ class MentiApp {
         {
           number: 1,
           title: 'Первинна діагностика',
-          description:
-            'AI-асистент проводить точну діагностику схильностей особистості',
+          description: 'AI-асистент проводить точну діагностику схильностей особистості',
           tags: ['AI', 'Тестування'],
         },
         {
@@ -70,22 +66,19 @@ class MentiApp {
           id: '1',
           authorName: 'Оля Резнікова',
           authorRole: 'Засновниця платформи',
-          content:
-            'Я бачила успішні трансформації одиниць, але хотіла допомогти тисячам. Mentee народився на перетині мого досвіду в освіті та віри в те, що технології мають служити людині.',
+          content: 'Я бачила успішні трансформації одиниць, але хотіла допомогти тисячам. Mentee народився на перетині мого досвіду в освіті та віри в те, що технології мають служити людині.',
         },
         {
           id: '2',
           authorName: 'Підлітки України',
           authorRole: 'Бенефіціари',
-          content:
-            'Понад 70% підлітків відчувають високий рівень тривожності. Mentee створений, щоб допомогти кожному.',
+          content: 'Понад 70% підлітків відчувають високий рівень тривожності. Mentee створений, щоб допомогти кожному.',
         },
         {
           id: '3',
           authorName: 'Марія Коваленко',
           authorRole: 'Керівниця програм менторства',
-          content:
-            'Mentee дає можливість підліткам отримувати якісну підтримку незалежно від місця проживання. Це справжня революція в освіті.',
+          content: 'Mentee дає можливість підліткам отримувати якісну підтримку незалежно від місця проживання. Це справжня революція в освіті.',
         },
       ],
       mentorBenefits: [
@@ -101,72 +94,48 @@ class MentiApp {
           id: '1',
           name: 'Ольга Резнікова',
           role: 'CEO',
-          description:
-            'Засновниця освітньої платформи, менторка молодіжних ініціатив',
-          fullDescription:
-            'Реалізуючи менторські програми, я усвідомила головну проблему — відсутність швидкого містка між підлітком та фахівцем.',
+          description: 'Засновниця освітньої платформи, менторка молодіжних ініціатив',
+          fullDescription: 'Реалізуючи менторські програми, я усвідомила головну проблему — відсутність швидкого містка між підлітком та фахівцем.',
           photo: this.asset('images/team/olha_reznikova_.png'),
           quote: 'Кожен підліток заслуговує на шанс розкрити свій потенціал',
-          contacts: {
-            phone: '+380969007678',
-            email: 'reznikovaolha@gmail.com',
-            social: 'https://instagram.com/olla_reznikova',
-          },
+          contacts: { phone: '+380969007678', email: 'reznikovaolha@gmail.com', social: 'https://instagram.com/olla_reznikova' },
         },
         {
           id: '2',
           name: 'Вероніка Пилипенко',
           role: 'Mobile Developer',
           description: 'Розробниця сайту та мобільного додатку Mentee',
-          fullDescription:
-            'Я вірю, що технології можуть змінювати життя на краще.',
+          fullDescription: 'Я вірю, що технології можуть змінювати життя на краще.',
           photo: this.asset('images/team/veronika_pylypenko.png'),
           quote: 'Технології мають бути доступними та корисними для кожного',
-          contacts: {
-            phone: '+380684801933',
-            email: 'veronika.pylypenko.25@kse.org.ua',
-            social: 'https://instagram.com/nn.2n.nnj',
-          },
+          contacts: { phone: '+380684801933', email: 'veronika.pylypenko.25@kse.org.ua', social: 'https://instagram.com/nn.2n.nnj' },
         },
         {
           id: '3',
           name: 'Микита Сідоров',
           role: 'UI/UX Designer',
           description: 'Дизайнер інтерфейсів та користувацького досвіду',
-          fullDescription:
-            'Дизайн — це не просто естетика, це спосіб зробити складне простим.',
+          fullDescription: 'Дизайн — це не просто естетика, це спосіб зробити складне простим.',
           photo: this.asset('images/team/mykyta_sidorov.png'),
-          quote:
-            'Гарний дизайн робить продукт зрозумілим, а великий — незабутнім',
-          contacts: {
-            phone: '+380989522471',
-            email: 'mykyta.sidorov.25@kse.org.ua',
-            social: 'https://instagram.com/naukyr',
-          },
+          quote: 'Гарний дизайн робить продукт зрозумілим, а великий — незабутнім',
+          contacts: { phone: '+380989522471', email: 'mykyta.sidorov.25@kse.org.ua', social: 'https://instagram.com/naukyr' },
         },
         {
           id: '4',
           name: 'Поліна Гармаш',
           role: 'Content Creator',
           description: 'Створює контент та комунікації',
-          fullDescription:
-            'Слова мають силу. Я долучилась до Mentee, щоб допомогти розповісти історії.',
+          fullDescription: 'Слова мають силу. Я долучилась до Mentee, щоб допомогти розповісти історії.',
           photo: this.asset('images/team/polina_harmash_.png'),
           quote: 'Кожна історія має бути почутою',
-          contacts: {
-            phone: '+380958069506',
-            email: 'polina.harmash.25@kse.org.ua',
-            social: 'https://instagram.com/harmashpolinaua',
-          },
+          contacts: { phone: '+380958069506', email: 'polina.harmash.25@kse.org.ua', social: 'https://instagram.com/harmashpolinaua' },
         },
         {
           id: '5',
           name: 'Єлизавета Приходько',
           role: 'Project Manager',
-          description:
-            'Координаторка проєктів, організаторка менторських програм',
-          fullDescription:
-            'Я вірю, що правильно організований процес може змінити життя.',
+          description: 'Координаторка проєктів, організаторка менторських програм',
+          fullDescription: 'Я вірю, що правильно організований процес може змінити життя.',
           photo: this.asset('images/team/yelyzaveta_pryhodko.png'),
           quote: 'Якісне планування — запорука успішного результату',
           contacts: { email: 'yelyzaveta.prykhodko@kse.org.ua' },
@@ -177,55 +146,78 @@ class MentiApp {
 
   private renderHero(): string {
     return `
-    <section class="hero">
-      <div class="container">
-        <div class="hero-content">
-          <div class="hero-text">
-            <h1 class="hero-title">Одна розмова може змінити життя</h1>
-            <p class="hero-subtitle">Персональна екосистема розвитку Mentee — це місце, де молодь знаходить підтримку, яка їм справді потрібна.</p>
-            <p class="hero-subtitle-secondary">Без засуджень. Без стереотипів. Просто ти і твій шлях вперед.</p>
-            <div class="hero-tags">
-              <span class="hero-tag">🔒 Безпечно</span>
-              <span class="hero-tag">🎭 Анонімно</span>
-              <span class="hero-tag">⏰ 24/7</span>
-            </div>
-
-            <div class="hero-buttons">
-              <button class="btn-download" id="downloadBtn" type="button">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2M7 11l5 5 5-5M12 4v12"/>
-                </svg>
-                <span>Завантажити додаток</span>
-              </button>
-              <button class="test-btn" id="openTestBtn" type="button">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M12 2a10 10 0 0 1 10 10c0 5.5-4 10-10 10S2 17.5 2 12 6 2 12 2z"/>
-                  <path d="M12 6v6l4 2"/>
-                </svg>
-                <span>Пройти тест "Твоя супер-сила"</span>
-              </button>
-            </div>
-
-            <div class="hero-stats">
-              <div class="stat-item"><div class="stat-number">1.5M+</div><div class="stat-label">підлітків потребують підтримки</div></div>
-              <div class="stat-item"><div class="stat-number">70%</div><div class="stat-label">мають високий рівень тривожності</div></div>
-              <div class="stat-item"><div class="stat-number">60%</div><div class="stat-label">не мають плану профорієнтації</div></div>
-            </div>
-          </div>
-
-          <div class="hero-phone">
-            <div class="phone-frame">
-              <div class="phone-screen">
-                <img src="${this.asset('images/screen_page.png')}" alt="Menti App" class="phone-screenshot">
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <h1 class="hero-title">Одна розмова може змінити життя</h1>
+              <p class="hero-subtitle">Персональна екосистема розвитку Mentee — це місце, де молодь знаходить підтримку, яка їм справді потрібна.</p>
+              <p class="hero-subtitle-secondary">Без засуджень. Без стереотипів. Просто ти і твій шлях вперед.</p>
+              <div class="hero-tags">
+                <span class="hero-tag">🔒 Безпечно</span>
+                <span class="hero-tag">🎭 Анонімно</span>
+                <span class="hero-tag">⏰ 24/7</span>
               </div>
-              <div class="phone-dynamic-island"></div>
-              <div class="phone-home"></div>
+
+              <div class="hero-buttons">
+                <button class="btn-download" id="downloadBtn" type="button">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2M7 11l5 5 5-5M12 4v12"/>
+                  </svg>
+                  <span>Завантажити додаток</span>
+                </button>
+                <button class="test-btn" id="openTestBtn" type="button">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2a10 10 0 0 1 10 10c0 5.5-4 10-10 10S2 17.5 2 12 6 2 12 2z"/>
+                    <path d="M12 6v6l4 2"/>
+                  </svg>
+                  <span>Пройти тест "Твоя супер-сила"</span>
+                </button>
+              </div>
+
+              <div class="hero-stats">
+                <div class="stat-item">
+                  <div class="stat-front">
+                    <div class="stat-number">1.5M+</div>
+                    <div class="stat-label">підлітків потребують підтримки</div>
+                  </div>
+                  <div class="stat-hover-description">
+                    <p>📱 Ми створили <strong>AI-ментора</strong>, який почує кожного 24/7.<br>Твій запит не залишиться без відповіді.</p>
+                  </div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-front">
+                    <div class="stat-number">70%</div>
+                    <div class="stat-label">мають високий рівень тривожності</div>
+                  </div>
+                  <div class="stat-hover-description">
+                    <p>🧠 Відчуваєш тривожність? Підніми свій рівень контролю з 1 до 10 вже після першої сесії.<br><strong>Керуй своїм станом, а не навпаки.</strong></p>
+                  </div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-front">
+                    <div class="stat-number">60%</div>
+                    <div class="stat-label">не мають плану профорієнтації</div>
+                  </div>
+                  <div class="stat-hover-description">
+                    <p>🎯 Не знаєш, ким бути? AI-алгоритм Mentee перетворює твої цілі у <strong>чіткий план дій</strong>.<br>Знайди свій шлях без тиску.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hero-phone">
+              <div class="phone-frame">
+                <div class="phone-screen">
+                  <img src="${this.asset('images/screen_page.png')}" alt="Menti App" class="phone-screenshot">
+                </div>
+                <div class="phone-dynamic-island"></div>
+                <div class="phone-home"></div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  `;
+      </section>
+    `;
   }
 
   private renderFlagshipBlocks(): string {
@@ -252,7 +244,7 @@ class MentiApp {
             <div class="volunteer-call-content">
               <h2 class="volunteer-call-title">Інвестуйте свій час у розвиток молоді, що постраждала від війни</h2>
               <p class="volunteer-call-subtitle">допоможіть підліткам повірити у власні сили</p>
-              <p class="volunteer-call-text"> Приєднуйся до спільноти експертів Mentee, які допомагають молоді вразливих категорій знайти свій шлях. Ваша експертиза допоможе підлітку опанувати неофхідні soft skills, підвищити рівень знань та повірити в себе. Навіть одна сесія на місяць може стати провідником у світ професійної реалізації та внутрішньої рівноваги менті.</p>
+              <p class="volunteer-call-text">Приєднуйся до спільноти експертів Mentee, які допомагають молоді вразливих категорій знайти свій шлях. Ваша експертиза допоможе підлітку опанувати необхідні soft skills, підвищити рівень знань та повірити в себе. Навіть одна сесія на місяць може стати провідником у світ професійної реалізації та внутрішньої рівноваги менті.</p>
               <div class="volunteer-call-quote"><span class="quote-mark">“</span><span class="quote-text">з ментором легше</span><span class="quote-mark">”</span></div>
               <div class="volunteer-call-stats">
                 <div class="volunteer-call-stat"><div class="volunteer-call-stat-number">280+</div><div class="volunteer-call-stat-label">експертів вже приєдналось</div></div>
@@ -260,7 +252,6 @@ class MentiApp {
               </div>
               <div class="volunteer-call-buttons">
                 <button class="btn-volunteer-primary" id="volunteerCallBtn" type="button"><span>Стати волонтером-ментором</span></button>
-                <button class="btn-volunteer-secondary" id="volunteerAskBtn" type="button"><span>Привіт! Є питання?</span></button>
               </div>
             </div>
             <div class="volunteer-call-media">
@@ -337,38 +328,25 @@ class MentiApp {
   }
 
   private renderAudienceContent(): string {
-    const content =
-      this.activeAudience === 'mentee'
-        ? {
-            title: 'Хочу навчатись',
-            items: [
-              {
-                title: 'AI-Matching',
-                text: 'Твій ідеальний фахівець за декілька кліків',
-              },
-              {
-                title: 'Верифікована безпека',
-                text: 'Ми вже перевірили всі дипломи',
-              },
-              { title: 'Оплата в один дотик', text: 'Apple Pay / Google Pay' },
-              {
-                title: 'Roadmap та трекер навчання',
-                text: 'Реальний прогрес своїх навичок',
-              },
-            ],
-          }
-        : {
-            title: 'Хочу навчати',
-            items: [
-              { title: 'Гарантований дохід', text: 'Оплата автоматично' },
-              { title: 'Авто-календар', text: 'Синхронізація з Google' },
-              { title: 'Нуль маркетингу', text: 'AI приводить учнів' },
-              {
-                title: 'Автоматизована операційка',
-                text: 'Нагадування та облік',
-              },
-            ],
-          };
+    const content = this.activeAudience === 'mentee'
+      ? {
+        title: 'Хочу навчатись',
+        items: [
+          { title: 'AI-Matching', text: 'Твій ідеальний фахівець за декілька кліків' },
+          { title: 'Верифікована безпека', text: 'Ми вже перевірили всі дипломи' },
+          { title: 'Оплата в один дотик', text: 'Apple Pay / Google Pay' },
+          { title: 'Roadmap та трекер навчання', text: 'Реальний прогрес своїх навичок' },
+        ],
+      }
+      : {
+        title: 'Хочу навчати',
+        items: [
+          { title: 'Гарантований дохід', text: 'Оплата автоматично' },
+          { title: 'Авто-календар', text: 'Синхронізація з Google' },
+          { title: 'Нуль маркетингу', text: 'AI приводить учнів' },
+          { title: 'Автоматизована операційка', text: 'Нагадування та облік' },
+        ],
+      };
     return `<div class="audience-panel"><h4>${content.title}</h4><div class="audience-feature-list">${content.items.map((i) => `<div class="audience-feature-card"><h5>${i.title}</h5><p>${i.text}</p></div>`).join('')}</div></div>`;
   }
 
@@ -410,9 +388,7 @@ class MentiApp {
     return `<div id="quizModal" class="quiz-modal-overlay"><div class="quiz-container"><div class="quiz-header"><h2>⚡ Яка твоя суперсила?</h2><button class="quiz-close" id="closeQuizBtn">&times;</button></div><div class="quiz-progress-bar"><div class="quiz-progress-fill" id="quizProgressFill"></div></div><div id="quizContent"></div></div></div>`;
   }
 
-  private renderAuthModal(
-    mode: 'login' | 'register' | 'mentor' = 'register',
-  ): string {
+  private renderAuthModal(mode: 'login' | 'register' | 'mentor' = 'register'): string {
     const isLogin = mode === 'login';
     const isMentor = mode === 'mentor';
     return `<div class="modal-overlay" id="authModal"><div class="modal-container"><button class="modal-close" type="button">&times;</button><div class="modal-header"><div class="modal-logo">Mentee</div><h2>${isLogin ? 'Вхід' : isMentor ? 'Стати ментором' : 'Реєстрація'}</h2><p>${isLogin ? 'Введіть ваші дані для входу' : isMentor ? 'Приєднуйтесь до команди менторів' : 'Створіть акаунт щоб приєднатись'}</p></div><form class="modal-form" id="authForm">${!isLogin ? `<div class="form-group"><label for="name">Ім'я</label><input type="text" id="name" name="name" placeholder="Ваше ім'я" required></div>` : ''}${isMentor ? `<div class="form-group"><label for="expertise">Спеціалізація</label><input type="text" id="expertise" name="expertise" placeholder="Наприклад: Психолог, Ментор" required></div><div class="form-group"><label for="experience">Досвід (років)</label><input type="number" id="experience" name="experience" placeholder="5" required></div>` : ''}<div class="form-group"><label for="email">Email</label><input type="email" id="email" name="email" placeholder="your@email.com" required></div><div class="form-group"><label for="password">Пароль</label><input type="password" id="password" name="password" placeholder="••••••••" required></div>${!isLogin ? `<div class="form-group"><label for="confirmPassword">Підтвердіть пароль</label><input type="password" id="confirmPassword" name="confirmPassword" placeholder="••••••••" required></div>` : ''}<div class="form-group checkbox-group"><input type="checkbox" id="terms" name="terms" required><label for="terms">Я погоджуюсь з <a href="#">умовами використання</a> та <a href="#">політикою конфіденційності</a></label></div><button type="submit" class="modal-submit">${isLogin ? 'Увійти' : isMentor ? 'Зареєструватись як ментор' : 'Зареєструватись'}</button></form><div class="modal-footer">${isLogin ? `<p>Ще немає акаунту? <a href="#" id="switchToRegister">Зареєструватись</a></p>` : `<p>Вже є акаунт? <a href="#" id="switchToLogin">Увійти</a></p>`}</div>${!isLogin ? `<div class="modal-divider"><span>або</span></div><div class="social-login"><button class="social-btn google" type="button">Google</button><button class="social-btn facebook" type="button">Facebook</button></div>` : ''}</div></div>`;
@@ -432,65 +408,43 @@ class MentiApp {
   }
 
   private attachEventListeners(): void {
-    document
-      .querySelector('.mobile-menu-btn')
-      ?.addEventListener('click', () =>
-        document.querySelector('.nav-links')?.classList.toggle('show'),
-      );
+    document.querySelector('.mobile-menu-btn')?.addEventListener('click', () =>
+      document.querySelector('.nav-links')?.classList.toggle('show')
+    );
     this.initTeamCarousel();
     this.initTestimonialsCarousel();
     this.initQuiz();
 
-    document
-      .getElementById('downloadBtn')
-      ?.addEventListener('click', () => alert('Додаток буде доступний скоро!'));
-    document
-      .getElementById('ctaDownloadBtn')
-      ?.addEventListener('click', () => alert('Додаток буде доступний скоро!'));
-    [
-      'volunteerBtn',
-      'ctaVolunteerBtn',
-      'volunteerCallBtn',
-      'floatingCtaBtn',
-    ].forEach((id) =>
-      document
-        .getElementById(id)
-        ?.addEventListener('click', () => this.openModal('mentor')),
+    document.getElementById('downloadBtn')?.addEventListener('click', () => alert('Додаток буде доступний скоро!'));
+    document.getElementById('ctaDownloadBtn')?.addEventListener('click', () => alert('Додаток буде доступний скоро!'));
+
+    ['volunteerBtn', 'ctaVolunteerBtn', 'volunteerCallBtn', 'floatingCtaBtn'].forEach((id) =>
+      document.getElementById(id)?.addEventListener('click', () => this.openModal('mentor'))
     );
-    document
-      .getElementById('registerBtn')
-      ?.addEventListener('click', () => this.openModal('register'));
+
+    document.getElementById('registerBtn')?.addEventListener('click', () => this.openModal('register'));
     document.getElementById('loginLink')?.addEventListener('click', (e) => {
       e.preventDefault();
       this.openModal('login');
     });
-    document
-      .getElementById('volunteerAskBtn')
-      ?.addEventListener('click', () =>
-        alert("Зв'яжіться з нами: reznikovaolha@gmail.com"),
-      );
-    document
-      .getElementById('donateBtn')
-      ?.addEventListener('click', () => alert('Дякуємо за інтерес!'));
-    document
-      .getElementById('impactMoreBtn')
-      ?.addEventListener('click', () => alert('Прозорість — наша цінність.'));
-    document
-      .getElementById('allTestimonialsBtn')
-      ?.addEventListener('click', () =>
-        alert('Всі відгуки будуть доступні незабаром!'),
-      );
-    document
-      .querySelectorAll<HTMLButtonElement>('.top-switch-btn')
-      .forEach((btn) =>
-        btn.addEventListener('click', () => {
-          const audience = btn.dataset.audience as 'mentee' | 'mentor';
-          if (audience && audience !== this.activeAudience) {
-            this.activeAudience = audience;
-            this.render();
-          }
-        }),
-      );
+    document.getElementById('volunteerAskBtn')?.addEventListener('click', () =>
+      alert("Зв'яжіться з нами: reznikovaolha@gmail.com")
+    );
+    document.getElementById('donateBtn')?.addEventListener('click', () => alert('Дякуємо за інтерес!'));
+    document.getElementById('impactMoreBtn')?.addEventListener('click', () => alert('Прозорість — наша цінність.'));
+    document.getElementById('allTestimonialsBtn')?.addEventListener('click', () =>
+      alert('Всі відгуки будуть доступні незабаром!')
+    );
+
+    document.querySelectorAll<HTMLButtonElement>('.top-switch-btn').forEach((btn) =>
+      btn.addEventListener('click', () => {
+        const audience = btn.dataset.audience as 'mentee' | 'mentor';
+        if (audience && audience !== this.activeAudience) {
+          this.activeAudience = audience;
+          this.render();
+        }
+      })
+    );
   }
 
   private initTeamCarousel(): void {
@@ -502,265 +456,103 @@ class MentiApp {
       bottomLeft = document.getElementById('teamSlotBottomLeft'),
       bottomRight = document.getElementById('teamSlotBottomRight');
     const dots = document.querySelectorAll<HTMLElement>('.team-dot');
-    if (
-      !prevBtn ||
-      !nextBtn ||
-      !centerCard ||
-      !topLeft ||
-      !topRight ||
-      !bottomLeft ||
-      !bottomRight
-    )
-      return;
+    if (!prevBtn || !nextBtn || !centerCard || !topLeft || !topRight || !bottomLeft || !bottomRight) return;
 
     const members = this.data.teamMembers;
-    let currentIndex = 0,
-      hoverTimer: number | null = null;
+    let currentIndex = 0, hoverTimer: number | null = null;
     const normalizeIndex = (i: number) => (i + members.length) % members.length;
     const getMember = (i: number) => members[normalizeIndex(i)];
-    const renderCenter = (m: (typeof members)[0]) =>
-      `<div class="team-center-avatar-wrap"><div class="team-center-avatar-glow"></div><div class="team-center-avatar-ring"><img src="${m.photo}" alt="${m.name}" class="team-center-avatar" onerror="this.src='${this.asset('images/placeholder-avatar.jpg')}'"></div></div><div class="team-center-content"><h3 class="team-center-name">${m.name}</h3><p class="team-center-role">${m.role}</p><p class="team-center-text">${m.quote}</p></div>`;
-    const renderSide = (m: (typeof members)[0], idx: number, txt: string) =>
-      `<button class="team-side-node" type="button" data-index="${idx}"><div class="team-side-avatar-wrap"><div class="team-side-avatar-ring"><img src="${m.photo}" alt="${m.name}" class="team-side-avatar" onerror="this.src='${this.asset('images/placeholder-avatar.jpg')}'"></div></div><p class="team-side-text">${txt}</p></button>`;
+    const renderCenter = (m: typeof members[0]) => `<div class="team-center-avatar-wrap"><div class="team-center-avatar-glow"></div><div class="team-center-avatar-ring"><img src="${m.photo}" alt="${m.name}" class="team-center-avatar" onerror="this.src='${this.asset('images/placeholder-avatar.jpg')}'"></div></div><div class="team-center-content"><h3 class="team-center-name">${m.name}</h3><p class="team-center-role">${m.role}</p><p class="team-center-text">${m.quote}</p></div>`;
+    const renderSide = (m: typeof members[0], idx: number, txt: string) => `<button class="team-side-node" type="button" data-index="${idx}"><div class="team-side-avatar-wrap"><div class="team-side-avatar-ring"><img src="${m.photo}" alt="${m.name}" class="team-side-avatar" onerror="this.src='${this.asset('images/placeholder-avatar.jpg')}'"></div></div><p class="team-side-text">${txt}</p></button>`;
     const bindHover = (container: HTMLElement | null) => {
-      const btn =
-        container?.querySelector<HTMLButtonElement>('button[data-index]');
+      const btn = container?.querySelector<HTMLButtonElement>('button[data-index]');
       if (!btn) return;
       const idx = Number(btn.dataset.index);
-      const activate = () => {
-        currentIndex = idx;
-        update();
-      };
+      const activate = () => { currentIndex = idx; update(); };
       btn.addEventListener('click', activate);
       btn.addEventListener('mouseenter', () => {
         if (hoverTimer) clearTimeout(hoverTimer);
         hoverTimer = window.setTimeout(activate, 160);
       });
       btn.addEventListener('mouseleave', () => {
-        if (hoverTimer) {
-          clearTimeout(hoverTimer);
-          hoverTimer = null;
-        }
+        if (hoverTimer) { clearTimeout(hoverTimer); hoverTimer = null; }
       });
     };
     const update = () => {
       const center = getMember(currentIndex);
       centerCard.innerHTML = renderCenter(center);
-      topLeft.innerHTML = renderSide(
-        getMember(currentIndex - 2),
-        normalizeIndex(currentIndex - 2),
-        getMember(currentIndex - 2).description,
-      );
-      topRight.innerHTML = renderSide(
-        getMember(currentIndex + 1),
-        normalizeIndex(currentIndex + 1),
-        getMember(currentIndex + 1).description,
-      );
-      bottomLeft.innerHTML = renderSide(
-        getMember(currentIndex - 1),
-        normalizeIndex(currentIndex - 1),
-        getMember(currentIndex - 1).description,
-      );
-      bottomRight.innerHTML = renderSide(
-        getMember(currentIndex + 2),
-        normalizeIndex(currentIndex + 2),
-        getMember(currentIndex + 2).description,
-      );
+      topLeft.innerHTML = renderSide(getMember(currentIndex - 2), normalizeIndex(currentIndex - 2), getMember(currentIndex - 2).description);
+      topRight.innerHTML = renderSide(getMember(currentIndex + 1), normalizeIndex(currentIndex + 1), getMember(currentIndex + 1).description);
+      bottomLeft.innerHTML = renderSide(getMember(currentIndex - 1), normalizeIndex(currentIndex - 1), getMember(currentIndex - 1).description);
+      bottomRight.innerHTML = renderSide(getMember(currentIndex + 2), normalizeIndex(currentIndex + 2), getMember(currentIndex + 2).description);
       bindHover(topLeft);
       bindHover(topRight);
       bindHover(bottomLeft);
       bindHover(bottomRight);
-      dots.forEach((dot, i) =>
-        dot.classList.toggle('active', i === currentIndex),
-      );
+      dots.forEach((dot, i) => dot.classList.toggle('active', i === currentIndex));
     };
-    prevBtn.addEventListener('click', () => {
-      currentIndex = normalizeIndex(currentIndex - 1);
-      update();
-    });
-    nextBtn.addEventListener('click', () => {
-      currentIndex = normalizeIndex(currentIndex + 1);
-      update();
-    });
-    dots.forEach((dot) =>
-      dot.addEventListener('click', () => {
-        currentIndex = Number(dot.dataset.index || 0);
-        update();
-      }),
-    );
+    prevBtn.addEventListener('click', () => { currentIndex = normalizeIndex(currentIndex - 1); update(); });
+    nextBtn.addEventListener('click', () => { currentIndex = normalizeIndex(currentIndex + 1); update(); });
+    dots.forEach((dot) => dot.addEventListener('click', () => { currentIndex = Number(dot.dataset.index || 0); update(); }));
     update();
   }
 
   private initTestimonialsCarousel(): void {
-    const track = document.getElementById('carouselTrack'),
-      prevBtn = document.getElementById('carouselPrev'),
-      nextBtn = document.getElementById('carouselNext'),
-      dots = document.querySelectorAll<HTMLElement>('.carousel-dot');
+    const track = document.getElementById('carouselTrack'), prevBtn = document.getElementById('carouselPrev'), nextBtn = document.getElementById('carouselNext'), dots = document.querySelectorAll<HTMLElement>('.carousel-dot');
     if (!track || !prevBtn || !nextBtn) return;
     let idx = 0;
     const total = this.data.testimonials.length;
-    const update = (i: number) => {
-      track.style.transform = `translateX(-${i * 100}%)`;
-      dots.forEach((d, j) => d.classList.toggle('active', j === i));
-    };
-    prevBtn.addEventListener('click', () => {
-      idx = (idx - 1 + total) % total;
-      update(idx);
-    });
-    nextBtn.addEventListener('click', () => {
-      idx = (idx + 1) % total;
-      update(idx);
-    });
-    dots.forEach((d) =>
-      d.addEventListener('click', () => {
-        idx = Number(d.dataset.index || 0);
-        update(idx);
-      }),
-    );
+    const update = (i: number) => { track.style.transform = `translateX(-${i * 100}%)`; dots.forEach((d, j) => d.classList.toggle('active', j === i)); };
+    prevBtn.addEventListener('click', () => { idx = (idx - 1 + total) % total; update(idx); });
+    nextBtn.addEventListener('click', () => { idx = (idx + 1) % total; update(idx); });
+    dots.forEach((d) => d.addEventListener('click', () => { idx = Number(d.dataset.index || 0); update(idx); }));
   }
 
   private initQuiz(): void {
     const QUESTIONS = [
-      {
-        text: 'Твій друг засмучений, а ти маєш важливий дедлайн. Ти...',
-        options: [
-          {
-            text: 'Скидаю йому чіткий чек-лист',
-            points: { strategy: 1, drive: 0, empathy: 0 },
-          },
-          {
-            text: 'Відкладаю все, щоб вислухати',
-            points: { strategy: 0, drive: 0, empathy: 1 },
-          },
-          {
-            text: 'Кажу: «Не кисни, давай зробимо щось круте!»',
-            points: { strategy: 0, drive: 1, empathy: 0 },
-          },
-        ],
-      },
-      {
-        text: 'Ти бачиш у соцмережах ровесника, який запустив стартап. Твоя думка?',
-        options: [
-          {
-            text: '«Круто, піду теж зроблю!»',
-            points: { strategy: 0, drive: 1, empathy: 0 },
-          },
-          {
-            text: '«Цікаво, яка бізнес-модель?»',
-            points: { strategy: 1, drive: 0, empathy: 0 },
-          },
-          {
-            text: '«Напишу, щоб привітати»',
-            points: { strategy: 0, drive: 0, empathy: 1 },
-          },
-        ],
-      },
-      {
-        text: 'Яку навичку ти б завантажив миттєво?',
-        options: [
-          {
-            text: 'Залізна дисципліна',
-            points: { strategy: 0, drive: 1, empathy: 0 },
-          },
-          {
-            text: 'Прогнозування наслідків',
-            points: { strategy: 1, drive: 0, empathy: 0 },
-          },
-          {
-            text: 'Радар емоцій людей',
-            points: { strategy: 0, drive: 0, empathy: 1 },
-          },
-        ],
-      },
-      {
-        text: 'Твоя кімната у повному безладі. Що робиш?',
-        options: [
-          {
-            text: 'Вмикаю музику і розгрібаю за годину',
-            points: { strategy: 0, drive: 1, empathy: 0 },
-          },
-          {
-            text: 'Створюю систему, щоб безлад не повертався',
-            points: { strategy: 1, drive: 0, empathy: 0 },
-          },
-          {
-            text: 'Прошу друзів допомогти',
-            points: { strategy: 0, drive: 0, empathy: 1 },
-          },
-        ],
-      },
-      {
-        text: 'Твій пріоритет у груповому проекті?',
-        options: [
-          {
-            text: 'Результат за будь-яку ціну',
-            points: { strategy: 0, drive: 1, empathy: 0 },
-          },
-          {
-            text: 'Чіткий розподіл ролей',
-            points: { strategy: 1, drive: 0, empathy: 0 },
-          },
-          {
-            text: 'Здорова атмосфера в команді',
-            points: { strategy: 0, drive: 0, empathy: 1 },
-          },
-        ],
-      },
-      {
-        text: 'Яким має бути твій ідеальний AI-ментор?',
-        options: [
-          {
-            text: 'Жорсткий тренер',
-            points: { strategy: 0, drive: 1, empathy: 0 },
-          },
+      { text: 'Твій друг засмучений, а ти маєш важливий дедлайн. Ти...', options: [
+          { text: 'Скидаю йому чіткий чек-лист', points: { strategy: 1, drive: 0, empathy: 0 } },
+          { text: 'Відкладаю все, щоб вислухати', points: { strategy: 0, drive: 0, empathy: 1 } },
+          { text: 'Кажу: «Не кисни, давай зробимо щось круте!»', points: { strategy: 0, drive: 1, empathy: 0 } }
+        ] },
+      { text: 'Ти бачиш у соцмережах ровесника, який запустив стартап. Твоя думка?', options: [
+          { text: '«Круто, піду теж зроблю!»', points: { strategy: 0, drive: 1, empathy: 0 } },
+          { text: '«Цікаво, яка бізнес-модель?»', points: { strategy: 1, drive: 0, empathy: 0 } },
+          { text: '«Напишу, щоб привітати»', points: { strategy: 0, drive: 0, empathy: 1 } }
+        ] },
+      { text: 'Яку навичку ти б завантажив миттєво?', options: [
+          { text: 'Залізна дисципліна', points: { strategy: 0, drive: 1, empathy: 0 } },
+          { text: 'Прогнозування наслідків', points: { strategy: 1, drive: 0, empathy: 0 } },
+          { text: 'Радар емоцій людей', points: { strategy: 0, drive: 0, empathy: 1 } }
+        ] },
+      { text: 'Твоя кімната у повному безладі. Що робиш?', options: [
+          { text: 'Вмикаю музику і розгрібаю за годину', points: { strategy: 0, drive: 1, empathy: 0 } },
+          { text: 'Створюю систему, щоб безлад не повертався', points: { strategy: 1, drive: 0, empathy: 0 } },
+          { text: 'Прошу друзів допомогти', points: { strategy: 0, drive: 0, empathy: 1 } }
+        ] },
+      { text: 'Твій пріоритет у груповому проекті?', options: [
+          { text: 'Результат за будь-яку ціну', points: { strategy: 0, drive: 1, empathy: 0 } },
+          { text: 'Чіткий розподіл ролей', points: { strategy: 1, drive: 0, empathy: 0 } },
+          { text: 'Здорова атмосфера в команді', points: { strategy: 0, drive: 0, empathy: 1 } }
+        ] },
+      { text: 'Яким має бути твій ідеальний AI-ментор?', options: [
+          { text: 'Жорсткий тренер', points: { strategy: 0, drive: 1, empathy: 0 } },
           { text: 'Аналітик', points: { strategy: 1, drive: 0, empathy: 0 } },
-          { text: 'Друг', points: { strategy: 0, drive: 0, empathy: 1 } },
-        ],
-      },
-      {
-        text: 'Що для тебе найскладніше?',
-        options: [
-          {
-            text: 'Почати щось нове',
-            points: { strategy: 0, drive: 1, empathy: 0 },
-          },
-          {
-            text: 'Довести справу до кінця',
-            points: { strategy: 1, drive: 0, empathy: 0 },
-          },
-          {
-            text: 'Розповісти про свої почуття',
-            points: { strategy: 0, drive: 0, empathy: 1 },
-          },
-        ],
-      },
+          { text: 'Друг', points: { strategy: 0, drive: 0, empathy: 1 } }
+        ] },
+      { text: 'Що для тебе найскладніше?', options: [
+          { text: 'Почати щось нове', points: { strategy: 0, drive: 1, empathy: 0 } },
+          { text: 'Довести справу до кінця', points: { strategy: 1, drive: 0, empathy: 0 } },
+          { text: 'Розповісти про свої почуття', points: { strategy: 0, drive: 0, empathy: 1 } }
+        ] }
     ];
     const RESULTS = {
-      drive: {
-        icon: '⚡️',
-        title: 'Кібер-Драйвер',
-        verdict: 'Ти — двигун будь-якого процесу.',
-        advice: 'Твій AI-ментор допоможе тобі не перегоріти.',
-      },
-      strategy: {
-        icon: '🧩',
-        title: 'Майстер-Стратег',
-        verdict: 'Ти бачиш архітектуру там, де інші бачать хаос.',
-        advice: 'Ми підберемо тобі ментора-практика.',
-      },
-      empathy: {
-        icon: '🤝',
-        title: 'Глобальний Емпат',
-        verdict: 'Твоя сила в людях.',
-        advice: 'Твій ментор допоможе розкрити емоційний інтелект.',
-      },
+      drive: { icon: '⚡️', title: 'Кібер-Драйвер', verdict: 'Ти — двигун будь-якого процесу.', advice: 'Твій AI-ментор допоможе тобі не перегоріти.' },
+      strategy: { icon: '🧩', title: 'Майстер-Стратег', verdict: 'Ти бачиш архітектуру там, де інші бачать хаос.', advice: 'Ми підберемо тобі ментора-практика.' },
+      empathy: { icon: '🤝', title: 'Глобальний Емпат', verdict: 'Твоя сила в людях.', advice: 'Твій ментор допоможе розкрити емоційний інтелект.' }
     };
-    let currentQ = 0,
-      answers: number[] = [],
-      scores = { drive: 0, strategy: 0, empathy: 0 };
-    const modal = document.getElementById('quizModal'),
-      quizContent = document.getElementById('quizContent'),
-      progressFill = document.getElementById('quizProgressFill');
+    let currentQ = 0, answers: number[] = [], scores = { drive: 0, strategy: 0, empathy: 0 };
+    const modal = document.getElementById('quizModal'), quizContent = document.getElementById('quizContent'), progressFill = document.getElementById('quizProgressFill');
     const recalc = () => {
       scores = { drive: 0, strategy: 0, empathy: 0 };
       for (let i = 0; i < answers.length; i++) {
@@ -785,39 +577,22 @@ class MentiApp {
       quizContent.innerHTML = html;
       document.querySelectorAll('.quiz-option').forEach((opt) =>
         opt.addEventListener('click', (e) => {
-          const idx = parseInt(
-            (e.currentTarget as HTMLElement).dataset.optIndex || '0',
-          );
+          const idx = parseInt((e.currentTarget as HTMLElement).dataset.optIndex || '0');
           answers[currentQ] = idx;
           recalc();
           renderQ();
-        }),
+        })
       );
-      document.getElementById('quizPrevBtn')?.addEventListener('click', () => {
-        if (currentQ > 0) {
-          currentQ--;
-          renderQ();
-        }
-      });
+      document.getElementById('quizPrevBtn')?.addEventListener('click', () => { if (currentQ > 0) { currentQ--; renderQ(); } });
       document.getElementById('quizNextBtn')?.addEventListener('click', () => {
-        if (answers[currentQ] === undefined) {
-          alert('Будь ласка, обери відповідь 💫');
-          return;
-        }
-        if (currentQ === QUESTIONS.length - 1) {
-          showResult();
-        } else {
-          currentQ++;
-          renderQ();
-        }
+        if (answers[currentQ] === undefined) { alert('Будь ласка, обери відповідь 💫'); return; }
+        if (currentQ === QUESTIONS.length - 1) { showResult(); } else { currentQ++; renderQ(); }
       });
       progressFill.style.width = `${((currentQ + 1) / QUESTIONS.length) * 100}%`;
     };
     const getDominant = (): 'drive' | 'strategy' | 'empathy' => {
-      if (scores.drive >= scores.strategy && scores.drive >= scores.empathy)
-        return 'drive';
-      if (scores.strategy >= scores.drive && scores.strategy >= scores.empathy)
-        return 'strategy';
+      if (scores.drive >= scores.strategy && scores.drive >= scores.empathy) return 'drive';
+      if (scores.strategy >= scores.drive && scores.strategy >= scores.empathy) return 'strategy';
       return 'empathy';
     };
     const showResult = () => {
@@ -825,64 +600,31 @@ class MentiApp {
       const r = RESULTS[getDominant()];
       quizContent.innerHTML = `<div class="quiz-result"><div class="quiz-bento"><div class="quiz-superpower-icon">${r.icon}</div><div class="quiz-result-type">${r.title}</div><div class="quiz-verdict">${r.verdict}</div><div class="quiz-advice">💡 Порада від Mentee:<br>${r.advice}</div><div><button id="quizDownloadBtn" class="quiz-download-btn">📸 Завантажити результат</button><button id="quizRestartBtn" class="quiz-restart-btn">🔄 Пройти ще раз</button></div></div></div>`;
       if (progressFill) progressFill.style.width = '100%';
-      document
-        .getElementById('quizDownloadBtn')
-        ?.addEventListener('click', () => {
-          const div = document.createElement('div');
-          div.style.cssText =
-            'position:fixed;left:-9999px;top:0;width:500px;background:linear-gradient(145deg,#fff,#faf5ff);border-radius:2rem;padding:2rem;text-align:center;font-family:Inter,sans-serif;';
-          div.innerHTML = `<div style="font-size:4rem;">${r.icon}</div><div style="font-size:2rem;font-weight:800;background:linear-gradient(135deg,#f26f9f,#8b5cf6);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;">${r.title}</div><div style="font-size:1rem;color:#44516f;">${r.verdict}</div><div style="background:#f3f6fe;border-radius:1.5rem;padding:1rem;margin:1rem 0;">💡 Порада від Mentee:<br>${r.advice}</div><div>mentee.app | твій шлях вперед</div>`;
-          document.body.appendChild(div);
-          const s = document.createElement('script');
-          s.src =
-            'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
-          s.onload = () => {
-            (window as any)
-              .html2canvas(div, { scale: 2 })
-              .then((canvas: HTMLCanvasElement) => {
-                const link = document.createElement('a');
-                link.download = `superpower_${r.title}.png`;
-                link.href = canvas.toDataURL();
-                link.click();
-                document.body.removeChild(div);
-              })
-              .catch(() => {
-                alert('Результат готовий! 🎉');
-                document.body.removeChild(div);
-              });
-          };
-          document.head.appendChild(s);
-        });
-      document
-        .getElementById('quizRestartBtn')
-        ?.addEventListener('click', () => {
-          currentQ = 0;
-          answers = [];
-          scores = { drive: 0, strategy: 0, empathy: 0 };
-          renderQ();
-        });
+      document.getElementById('quizDownloadBtn')?.addEventListener('click', () => {
+        const div = document.createElement('div');
+        div.style.cssText = 'position:fixed;left:-9999px;top:0;width:500px;background:linear-gradient(145deg,#fff,#faf5ff);border-radius:2rem;padding:2rem;text-align:center;font-family:Inter,sans-serif;';
+        div.innerHTML = `<div style="font-size:4rem;">${r.icon}</div><div style="font-size:2rem;font-weight:800;background:linear-gradient(135deg,#f26f9f,#8b5cf6);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;">${r.title}</div><div style="font-size:1rem;color:#44516f;">${r.verdict}</div><div style="background:#f3f6fe;border-radius:1.5rem;padding:1rem;margin:1rem 0;">💡 Порада від Mentee:<br>${r.advice}</div><div>mentee.app | твій шлях вперед</div>`;
+        document.body.appendChild(div);
+        const s = document.createElement('script');
+        s.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+        s.onload = () => {
+          (window as any).html2canvas(div, { scale: 2 }).then((canvas: HTMLCanvasElement) => {
+            const link = document.createElement('a');
+            link.download = `superpower_${r.title}.png`;
+            link.href = canvas.toDataURL();
+            link.click();
+            document.body.removeChild(div);
+          }).catch(() => { alert('Результат готовий! 🎉'); document.body.removeChild(div); });
+        };
+        document.head.appendChild(s);
+      });
+      document.getElementById('quizRestartBtn')?.addEventListener('click', () => { currentQ = 0; answers = []; scores = { drive: 0, strategy: 0, empathy: 0 }; renderQ(); });
     };
-    const openModal = () => {
-      if (modal) {
-        modal.classList.add('active');
-        currentQ = 0;
-        answers = [];
-        scores = { drive: 0, strategy: 0, empathy: 0 };
-        renderQ();
-      }
-    };
-    const closeModal = () => {
-      if (modal) modal.classList.remove('active');
-    };
-    document
-      .getElementById('openTestBtn')
-      ?.addEventListener('click', openModal);
-    document
-      .getElementById('closeQuizBtn')
-      ?.addEventListener('click', closeModal);
-    modal?.addEventListener('click', (e) => {
-      if (e.target === modal) closeModal();
-    });
+    const openModal = () => { if (modal) { modal.classList.add('active'); currentQ = 0; answers = []; scores = { drive: 0, strategy: 0, empathy: 0 }; renderQ(); } };
+    const closeModal = () => { if (modal) modal.classList.remove('active'); };
+    document.getElementById('openTestBtn')?.addEventListener('click', openModal);
+    document.getElementById('closeQuizBtn')?.addEventListener('click', closeModal);
+    modal?.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
   }
 
   private openModal(mode: 'login' | 'register' | 'mentor'): void {
@@ -901,24 +643,9 @@ class MentiApp {
       modal.classList.remove('show');
       setTimeout(() => modal.remove(), 250);
     });
-    modal.addEventListener('click', (e) => {
-      if (e.target === modal) {
-        modal.classList.remove('show');
-        setTimeout(() => modal.remove(), 250);
-      }
-    });
-    document.getElementById('switchToLogin')?.addEventListener('click', (e) => {
-      e.preventDefault();
-      modal.remove();
-      this.openModal('login');
-    });
-    document
-      .getElementById('switchToRegister')
-      ?.addEventListener('click', (e) => {
-        e.preventDefault();
-        modal.remove();
-        this.openModal('register');
-      });
+    modal.addEventListener('click', (e) => { if (e.target === modal) { modal.classList.remove('show'); setTimeout(() => modal.remove(), 250); } });
+    document.getElementById('switchToLogin')?.addEventListener('click', (e) => { e.preventDefault(); modal.remove(); this.openModal('login'); });
+    document.getElementById('switchToRegister')?.addEventListener('click', (e) => { e.preventDefault(); modal.remove(); this.openModal('register'); });
     document.getElementById('authForm')?.addEventListener('submit', (e) => {
       e.preventDefault();
       alert('Дякуємо! Перевірте вашу пошту.');
