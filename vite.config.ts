@@ -1,9 +1,12 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/Mentee_site/docs/',
+  // База должна быть именно такой, чтобы ссылки работали на GitHub Pages
+  base: '/Mentee_site/',
   build: {
+    outDir: 'dist',
     rollupOptions: {
+      // Убедитесь, что этот файл существует в корне проекта
       input: 'index.html',
       output: {
         entryFileNames: 'assets/index.js',
@@ -12,7 +15,6 @@ export default defineConfig({
           if (assetInfo.name?.endsWith('.css')) {
             return 'assets/index.css';
           }
-
           return 'assets/[name][extname]';
         },
       },

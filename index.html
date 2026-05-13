@@ -1,16 +1,14 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Menti</title>
-  <script>
-    const isLocalDev = ['localhost', '127.0.0.1'].includes(window.location.hostname);
-    const target = isLocalDev ? '/app.html' : '/Mentee_site/docs/';
-    window.location.replace(target);
-  </script>
 </head>
 <body>
-  <p>Redirecting...</p>
+  <div id="header"></div>
+  <main id="main-content"></main>
+  <div id="footer"></div>
+  <script type="module" src="/src/main.ts"></script>
 </body>
 </html>
