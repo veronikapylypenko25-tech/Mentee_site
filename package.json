@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && powershell -NoProfile -ExecutionPolicy Bypass -Command \"Remove-Item -Recurse -Force docs -ErrorAction SilentlyContinue; New-Item -ItemType Directory -Force docs | Out-Null; Copy-Item -Path dist\\* -Destination docs -Recurse -Force; Copy-Item dist\\app.html docs\\index.html -Force; Remove-Item docs\\app.html -ErrorAction SilentlyContinue; New-Item -ItemType File -Force docs\\.nojekyll | Out-Null\"",
+    "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d docs"
+    "deploy": "npx gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",

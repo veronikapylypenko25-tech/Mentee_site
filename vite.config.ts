@@ -4,7 +4,7 @@ export default defineConfig({
   base: '/Mentee_site/docs/',
   build: {
     rollupOptions: {
-      input: 'app.html',
+      input: 'index.html',
       output: {
         entryFileNames: 'assets/index.js',
         chunkFileNames: 'assets/[name].js',
