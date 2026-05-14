@@ -389,10 +389,6 @@ class MentiApp {
     return `<section class="section value-section"><div class="container"><h2 class="section-title">Цінність, яку ми створюємо</h2><div class="value-grid"><div class="value-card"><h3>Освітня</h3><p>Закриття прогалин у знаннях та свідомий вибір професії</p></div><div class="value-card"><h3>Психологічна</h3><p>Зниження рівня тривожності та розвиток стійкості</p></div><div class="value-card"><h3>Результат</h3><p>Підвищення якості людського капіталу України</p></div></div></div></section>`;
   }
 
-  private renderBusinessModel(): string {
-    return `<section class="section business-section"><div class="container"><h2 class="section-title">Бізнес-модель та стратегія</h2><div class="business-grid"><div class="business-card"><h3>💰 Комерційна складова</h3><p>Комісія з транзакцій, premium-функції, корпоративні підписки</p></div><div class="business-card"><h3>🤝 Соціальна місія</h3><p>Грантові програми, волонтерські години від експертів, доступ до знань для кожного</p></div></div><p class="business-note" style="margin-top:2rem;padding:0.5rem 0;background:transparent;border:none;color:#44516f;font-weight:500;text-align:center;">🌱 Соціальна складова реалізовуватиметься за рахунок грантового фінансування, внесків меценатів та партнерів.</p></div></section>`;
-  }
-
   private renderTestimonials(): string {
     return `<section class="section testimonials-carousel-section"><div class="container"><div class="testimonials-header"><h2 class="section-title">Про нас говорять</h2><p class="section-subtitle">Реальні історії від наших учнів та менторів</p></div><div class="testimonials-carousel-container"><button class="carousel-arrow carousel-prev" id="carouselPrev" type="button">‹</button><div class="testimonials-carousel"><div class="carousel-track" id="carouselTrack">${this.data.testimonials.map((t, i) => `<div class="testimonial-card-carousel" data-index="${i}"><div class="testimonial-quote-icon">“</div><p class="testimonial-content-carousel">${t.content}</p><div class="testimonial-author-carousel"><div class="author-avatar"><div class="avatar-placeholder">${t.authorName.charAt(0)}</div></div><div class="author-info"><h4 class="author-name">${t.authorName}</h4><p class="author-role">${t.authorRole}</p></div></div></div>`).join('')}</div></div><button class="carousel-arrow carousel-next" id="carouselNext" type="button">›</button></div><div class="carousel-dots">${this.data.testimonials.map((_, i) => `<button class="carousel-dot ${i === 0 ? 'active' : ''}" data-index="${i}" type="button"></button>`).join('')}</div><div class="testimonials-footer"><button class="btn-all-testimonials" id="allTestimonialsBtn" type="button">Переглянути всі відгуки</button></div></div></section>`;
   }
@@ -420,7 +416,7 @@ class MentiApp {
 
     if (headerElement) headerElement.innerHTML = this.header.render();
     if (mainElement) {
-      mainElement.innerHTML = `${this.renderHero()}${this.renderFlagshipBlocks()}${this.renderVolunteerCall()}${this.renderMission()}}${this.renderFeatures()}${this.renderProblem()}${this.renderSteps()}${this.renderUniqueness()}${this.renderCommunity()}${this.renderSimpleImpact()}${this.renderInteractiveStats()}${this.renderValue()}${this.renderBusinessModel()}${this.renderTestimonials()}${this.renderCTA()}${this.renderQuizModal()}`;
+      mainElement.innerHTML = `${this.renderHero()}${this.renderFlagshipBlocks()}${this.renderVolunteerCall()}${this.renderMission()}}${this.renderFeatures()}${this.renderProblem()}${this.renderSteps()}${this.renderUniqueness()}${this.renderCommunity()}${this.renderSimpleImpact()}${this.renderInteractiveStats()}${this.renderValue()}${this.renderTestimonials()}${this.renderCTA()}${this.renderQuizModal()}`;
     }
     if (footerElement) footerElement.innerHTML = this.footer.render();
     this.attachEventListeners();
