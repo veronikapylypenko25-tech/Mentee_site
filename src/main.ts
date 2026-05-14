@@ -253,19 +253,42 @@ class MentiApp {
 
   private renderFlagshipBlocks(): string {
     return `
-      <section class="section flagship-section">
-        <div class="container">
-          <h2 class="section-title">Напрями підтримки</h2>
-          <p class="section-subtitle">Ліквідуємо бар'єри між мрією та реалізацією
-</p>
-          <div class="flagship-grid">
-            <div class="flagship-card"><div class="flagship-icon">📚</div><h3>Education</h3><p>Закрий прогалини у знаннях та підготуйся до іспитів з експертами.</p><div class="flagship-tag">Навчання</div></div>
-            <div class="flagship-card"><div class="flagship-icon">💼</div><h3>Career & Soft Skills</h3><p>Знайди свій шлях та опануй навички, яких не вчать у школі.</p><div class="flagship-tag">Розвиток</div></div>
-            <div class="flagship-card"><div class="flagship-icon">🧘‍♀️</div><h3>Mental Health</h3><p>Отримай підтримку психологів, щоб зберегти спокій у часи невизначеності.</p><div class="flagship-tag">Підтримка</div></div>
+    <section class="section flagship-section">
+      <div class="container">
+        <h2 class="section-title">Тут починається твій Take-off</h2>
+        <p class="section-subtitle">Обери свій шлях розвитку разом з Mentee</p>
+        <div class="flagship-grid">
+          <div class="flagship-card">
+            <div class="flagship-media">
+              <img src="${this.asset('images/gif_education.gif')}" alt="Education" class="flagship-gif" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+              <div class="flagship-icon-fallback" style="display:none">📚</div>
+            </div>
+            <h3>Education</h3>
+            <p>Хочеш наздогнати програму чи підготуватися до тесту без зайвих нервів? AI-ментор підкаже шлях, а досвідчені викладачі стануть твоїми провідниками. Отримуй знання в зручному темпі, став будь-які питання та відчувай підтримку на кожному етапі свого розвитку.</p>
+            <div class="flagship-tag">Навчання</div>
+          </div>
+          <div class="flagship-card">
+            <div class="flagship-media">
+              <img src="${this.asset('images/gif_career.gif')}" alt="Career" class="flagship-gif" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+              <div class="flagship-icon-fallback" style="display:none">💼</div>
+            </div>
+            <h3>Career & Soft Skills</h3>
+            <p>Від розбору складної теми до першого кар'єрного плану — ти самостійно будуєш своє майбутнє у комфортному темпі.</p>
+            <div class="flagship-tag">Розвиток</div>
+          </div>
+          <div class="flagship-card">
+            <div class="flagship-media">
+              <img src="${this.asset('images/gif_mental.gif')}" alt="Mental Health" class="flagship-gif" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+              <div class="flagship-icon-fallback" style="display:none">🧘‍♀️</div>
+            </div>
+            <h3>Mental Health</h3>
+            <p>Ментальне здоров'я — це твоя стійкість. Швидка AI-підтримка, коли накриває, та перевірені психологи, з якими легко говорити про все на світі.</p>
+            <div class="flagship-tag">Підтримка</div>
           </div>
         </div>
-      </section>
-    `;
+      </div>
+    </section>
+  `;
   }
 
   private renderVolunteerCall(): string {
