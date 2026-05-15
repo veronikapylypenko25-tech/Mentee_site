@@ -588,120 +588,125 @@ h6 {
     color: var(--primary);
 }
 
-/* ========== FLAGSHIP СЕКЦІЯ ========== */
-.flagship-section {
-    background: transparent;
+/* ========== ФЛАГМАНСЬКІ БЛОКИ ========== */
+.flagship-section,
+.problem-section,
+.community-section,
+.impact-section,
+.testimonials-carousel-section {
+    background: var(--bg-light);
+}
+
+.flagship-grid,
+.features-grid,
+.problem-grid,
+.steps-grid,
+.value-grid,
+.business-grid,
+.community-grid {
+    display: grid;
+    gap: 2rem;
 }
 
 .flagship-grid {
-    display: flex;
-    gap: 24px;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 48px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.features-grid,
+.problem-grid,
+.steps-grid,
+.value-grid,
+.business-grid,
+.community-grid {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.flagship-card,
+.feature-card,
+.problem-card,
+.step-item,
+.value-card,
+.business-card,
+.community-card,
+.impact-stat-card {
+    background: var(--bg-white);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.flagship-card,
+.feature-card,
+.problem-card,
+.step-item,
+.value-card,
+.business-card,
+.community-card {
+    padding: 2rem;
+}
+
+.flagship-card:hover,
+.feature-card:hover,
+.problem-card:hover,
+.step-item:hover,
+.value-card:hover,
+.business-card:hover,
+.community-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
 }
 
 .flagship-card {
-    background: #ffffff;
-    border: 1px solid rgba(124, 58, 237, 0.15);
-    border-radius: 28px;
-    padding: 32px 28px;
-    max-width: 340px;
-    flex: 1;
-    min-width: 280px;
-    text-align: left;
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
+    text-align: center;
 }
 
-.flagship-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    border-radius: 28px 28px 0 0;
-    background: linear-gradient(90deg, #c084fc, #f472b6, #38bdf8);
-    opacity: 0;
-    transition: opacity 0.3s;
+.flagship-icon,
+.feature-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
-.flagship-card:hover::before {
-    opacity: 1;
+.flagship-card h3,
+.feature-card h3,
+.problem-card h3,
+.step-item h3,
+.value-card h3,
+.business-card h3 {
+    margin-bottom: 0.75rem;
 }
 
-.flagship-card:hover {
-    border-color: rgba(244, 114, 182, 0.4);
-    transform: translateY(-8px);
-    box-shadow: 0 24px 48px rgba(139, 92, 246, 0.2);
-}
-
-.flagship-media {
-    width: 100%;
-    height: 160px;
-    border-radius: 18px;
-    overflow: hidden;
-    margin-bottom: 24px;
-    background: rgba(139, 92, 246, 0.1);
-    display: flex;
+.flagship-tag,
+.tag {
+    display: inline-flex;
     align-items: center;
+    padding: 0.35rem 0.9rem;
+    border-radius: var(--radius-full);
+    font-size: 0.8rem;
+    color: var(--primary);
+    border: 1px solid var(--border-light);
+    background: var(--bg-light);
+}
+
+.step-number {
+    width: 3.25rem;
+    height: 3.25rem;
+    margin: 0 auto 1rem;
+    border-radius: 999px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    box-shadow: var(--shadow-sm);
+}
+
+.tags {
+    display: flex;
     justify-content: center;
-    border: 1px solid rgba(255,255,255,0.06);
+    flex-wrap: wrap;
+    gap: 0.5rem;
 }
 
-.flagship-gif {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.flagship-icon {
-    font-size: 4rem;
-    filter: drop-shadow(0 0 12px rgba(192, 132, 252, 0.6));
-}
-
-.flagship-icon-fallback {
-    font-size: 4rem;
-    filter: drop-shadow(0 0 12px rgba(192, 132, 252, 0.6));
-}
-
-.flagship-card h3 {
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin-bottom: 14px;
-    background: linear-gradient(90deg, #c084fc, #f472b6, #38bdf8, #c084fc);
-    background-size: 300% auto;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
-    animation: gradientShift 3s linear infinite;
-}
-
-@keyframes gradientShift {
-    0%   { background-position: 0% center; }
-    100% { background-position: 300% center; }
-}
-
-.flagship-card p {
-    font-size: 0.92rem;
-    color: #374151;
-    line-height: 1.7;
-    margin-bottom: 20px;
-}
-
-.flagship-tag {
-    display: inline-block;
-    background: linear-gradient(135deg, rgba(124, 58, 237, 0.15), rgba(244, 114, 182, 0.1));
-    border: 1px solid rgba(124, 58, 237, 0.35);
-    color: #7c3aed;
-    padding: 6px 16px;
-    border-radius: 40px;
-    font-size: 0.78rem;
-    font-weight: 600;
-}
 /* ========== ВОЛОНТЕРСЬКА СЕКЦІЯ ========== */
 .volunteer-call-grid {
     display: grid;
@@ -2269,285 +2274,4 @@ h6 {
     .phone-screen {
         border-radius: 1.85rem;
     }
-}
-/* ========== МОБІЛЬНЕ МЕНЮ ========== */
-.mobile-menu-btn {
-    display: none;
-    background: transparent;
-    border: 1px solid rgba(255,255,255,0.3);
-    color: white;
-    font-size: 1.4rem;
-    padding: 6px 14px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.nav-links {
-    transition: all 0.3s ease;
-}
-
-@media (max-width: 768px) {
-    .mobile-menu-btn {
-        display: block;
-    }
-
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        gap: 12px;
-        padding: 12px 0;
-    }
-
-    .nav-links.show {
-        display: flex;
-    }
-
-    .nav-links a,
-    .nav-links button {
-        width: 100%;
-        text-align: left;
-    }
-}
-
-/* ========== HERO АДАПТИВ ========== */
-@media (max-width: 900px) {
-    .hero-grid,
-    .hero-content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .hero-phone {
-        order: -1;
-        max-width: 240px;
-        margin: 0 auto;
-    }
-
-    .phone-frame {
-        max-width: 200px;
-    }
-
-    .phone-screen {
-        height: 360px;
-    }
-
-    .hero-title {
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    .hero-text,
-    .hero-left {
-        text-align: center;
-    }
-
-    .hero-subtitle-secondary {
-        text-align: left;
-    }
-
-    .hero-buttons {
-        justify-content: center;
-    }
-
-    .hero-stats {
-        justify-content: center;
-    }
-}
-
-/* ========== COUNTER АДАПТИВ ========== */
-@media (max-width: 768px) {
-    .counter {
-        flex-direction: column;
-        padding: 20px;
-        gap: 16px;
-    }
-
-    .counter-info {
-        width: 100%;
-        height: auto;
-        padding: 20px;
-        margin-right: 0;
-    }
-
-    .counter-value {
-        font-size: 100px;
-    }
-
-    .counter-interaction {
-        width: 100%;
-        height: auto;
-    }
-
-    .counter-interaction button {
-        width: 47%;
-        height: 80px;
-        font-size: 44px;
-        margin-right: 0;
-    }
-}
-
-/* ========== СЕКЦІЇ АДАПТИВ ========== */
-@media (max-width: 768px) {
-    .section-dark,
-    .section {
-        padding: 40px 16px;
-    }
-
-    .section-title {
-        font-size: 1.6rem;
-    }
-
-    .flagship-grid,
-    .features-grid,
-    .problem-grid,
-    .steps-grid,
-    .value-grid,
-    .community-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .flagship-card,
-    .feature-card,
-    .problem-card,
-    .value-card {
-        width: 100%;
-        max-width: 100%;
-    }
-
-    /* Volunteer section */
-    .volunteer-call-grid {
-        flex-direction: column;
-    }
-
-    .volunteer-call-media {
-        display: none;
-    }
-
-    /* Uniqueness dashboard */
-    .uniqueness-grid {
-        flex-direction: column;
-    }
-
-    .journey-column,
-    .dashboard-column {
-        width: 100%;
-    }
-
-    /* CTA */
-    .cta-buttons {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 12px;
-    }
-
-    .cta-contact {
-        flex-direction: column;
-        gap: 8px;
-    }
-
-    /* Impact section */
-    .impact-block {
-        padding: 40px 16px !important;
-        border-radius: 0 !important;
-    }
-
-    /* Floating elements */
-    .floating-element {
-        display: none;
-    }
-}
-
-/* ========== NAVBAR КОНТЕЙНЕР ========== */
-.navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 12px;
-    width: 100%;
-}
-
-/* ========== ЗАГАЛЬНИЙ КОНТЕЙНЕР ========== */
-.container {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: border-box;
-}
-
-@media (max-width: 480px) {
-    .hero-title {
-        font-size: 1.6rem;
-    }
-
-    .logo-text {
-        font-size: 1.4rem;
-    }
-
-    .btn-download,
-    .btn-volunteer,
-    .test-btn {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .hero-tags {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 8px;
-    }
-
-    .stat-item {
-        min-width: 100%;
-    }
-
-    .top-switch-btn {
-        padding: 8px 16px;
-        font-size: 0.85rem;
-    }
-}
-/* ========== FLAGSHIP GIF ========== */
-.flagship-media {
-    width: 100%;
-    height: 160px;
-    border-radius: 20px;
-    overflow: hidden;
-    margin-bottom: 20px;
-    background: rgba(255,255,255,0.05);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.flagship-gif {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-}
-
-.flagship-icon-fallback {
-    font-size: 3.2rem;
-}
-
-.flagship-card {
-    text-align: left;
-}
-
-.flagship-card h3 {
-    margin-bottom: 12px;
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: #e2e8f0;
-}
-
-.flagship-card p {
-    font-size: 0.9rem;
-    color: #9ca3af;
-    line-height: 1.6;
-    margin-bottom: 16px;
 }
