@@ -109,7 +109,7 @@ class MentiApp {
           quote: 'Кожен підліток заслуговує на шанс розкрити свій потенціал',
           contacts: {
             phone: '+380969007678',
-            email: 'reznikovaolha@gmail.com',
+            email: 'ngo.teleport@gmail.com',
             social: 'https://instagram.com/olla_reznikova',
           },
         },
@@ -417,7 +417,7 @@ class MentiApp {
   }
 
   private renderCTA(): string {
-    return `<div class="container"><section class="cta-section"><h2>Стань частиною змін</h2><p>Приєднуйся до спільноти Mentee та допомагай будувати майбутнє України</p><div class="cta-buttons"><button class="btn-download" id="ctaDownloadBtn" type="button">Завантажити додаток</button><button class="btn-volunteer" id="ctaVolunteerBtn" type="button">Стати волонтером-ментором</button></div><div class="cta-contact"><a href="tel:+3800969007678">+3800969007678</a><a href="mailto:ngo.teleport@gmail.com">reznikovaolha@gmail.com</a></div></section></div>`;
+    return `<div class="container"><section class="cta-section"><h2>Стань частиною змін</h2><p>Приєднуйся до спільноти Mentee та допомагай будувати майбутнє України</p><div class="cta-buttons"><button class="btn-download" id="ctaDownloadBtn" type="button">Завантажити додаток</button><button class="btn-volunteer" id="ctaVolunteerBtn" type="button">Стати волонтером-ментором</button></div><div class="cta-contact"><a href="tel:+3800969007678">+3800969007678</a><a href="mailto:ngo.teleport@gmail.com">ngo.teleport@gmail.com</a></div></section></div>`;
   }
 
   private renderQuizModal(): string {
@@ -483,7 +483,7 @@ class MentiApp {
     document
       .getElementById('volunteerAskBtn')
       ?.addEventListener('click', () =>
-        alert("Зв'яжіться з нами: reznikovaolha@gmail.com"),
+        alert("Зв'яжіться з нами: ngo.teleport@gmail.com"),
       );
     document
       .getElementById('donateBtn')
